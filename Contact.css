@@ -1,0 +1,24 @@
+.contacts {
+    overflow: hidden;
+    width: 1200px;
+    height: 100px;
+    background-color: teal;
+    margin: 0 auto;
+}
+
+
+.n {
+    float: left;
+    background-color: tomato;
+    width: 400px;
+    height: 150px;
+}
+
+p {
+    
+}
+
+.formulaire {
+    margin: 0 auto;
+    float: none;
+}

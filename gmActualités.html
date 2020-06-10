@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Actualités | Génie Méc'4L</title>
+        <meta charset="utf-8">	
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="base.css">
+		<link rel="stylesheet" type="text/css" href="header.css">
+		<link rel="stylesheet" type="text/css" href="Actualités.css">
+
+
+    </head>
+
+    <script>
+        function toggle_div( btn, id_div )
+        {
+          btn.innerHTML = (btn.innerHTML == 'Lire la suite')? 'Moins': 'Lire la suite';
+          btn.title = (btn.title == 'Afficher la suite')? 'Masquer la suite' : 'Afficher la suite';
+          document.getElementById( id_div ).style.display = (document.getElementById( id_div ).style.display == 'none')? 'block' : 'none';
+        }
+    </script>
+
+    <body>
+        <div class="header">
+            <div class="container">
+                <div class="header__navbar">
+                    <div class="header__navbar-logo">
+                        <p class="header__navbar-logo-title">Génie Méc'4L</p>	
+                    </div>
+                    <div class="header__navbar-menu">
+                        <nav>
+                            <ul>
+                                <li><a class="header__navbar-menu-link" href="index.html">Accueil</a></li>
+                                <li><a class="header__navbar-menu-link" href="gmAPropos.html">Le 4L Trophy</a></li>	
+                                <li><a class="header__navbar-menu-link" href="gmEquipage.html">L'équipage</a></li>
+                                <li><a class="header__navbar-menu-link" href="gmNotreProjet.html">Notre projet</a></li>		
+                                <li><a class="header__navbar-menu-link" href="gmActualités.html" style="color: sandybrown; border-top: 2px solid sandybrown; padding: 18px 30px 20px 30px;">Actualités</a></li>
+                                <li class="menu-NousSoutenir"><a class="header__navbar-menu-link">Nous soutenir</a>
+                                    <ul class="NousSoutenir">
+                                        <li><a href="gmCommentNousSoutenir.html">Comment nous soutenir ?</a></li>
+                                        <li><a href="gmIlsNousSoutiennentDéjà.html">Ils nous soutiennent déjà</a></li>
+                                    </ul>
+                                <li><a class="header__navbar-menu-link" href="gmContact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="dossier">
+                        <a href="https://d0d3b06b-acb8-4d7d-9aab-cc744290d5e4.filesusr.com/ugd/ae5fb1_a4a4a34f48a24776b4361c602a98db8d.pdf" target="bank" class="header__navbar-menu-dossier"><div style="width: auto; padding: 15px; border: 2px solid white; text-align: center; background: none; border-radius: 10px;">Dossier sponsoring</div></a>
+                    </div>
+                </div>	
+            </div>
+        </div>
+        <div class="white"></div>
+
+        <h1 class="titre">ACTUALITÉS</h1>
+        
+        <div class="articles">
+           
+            <div class="article2">
+                <img style="width: 60%; height: 60%;" src="4Lbleue.jpg" alt="">
+                <h3>ARRIVÉE DE LA FAMEUSE 4L !</h3>
+                <p class="date">23/05/2020</p>
+            
+                <article style="text-align: justify;">
+                    <div>
+                        Bonjour à tous ! <br> Nous sommes heureux de vous présenter notre petit bolide qui nous permettra d'atteindre le Maroc (espérons) sans difficulté. <br>
+                    
+                    </div>
+                    <div id="test-3" style="display:none">
+                        <br>
+                        Après avoir créé notre association : <strong>Génie Méc'4L</strong>, puis nous être pré-inscris au 4L Trophy, prennant ainsi le numéro d'équipage 759, est venu 
+                        le temps de trouver notre véhicule. Suite à de nombreux jours de recherches ainsi que quelques visites, nous avons trouvé le véhicule idéal qui nous
+                        accompagnera jusqu'au bout de l'aventure. <br>
+                        <br>
+                        Une fois la 4L achetée, il a fallut la ramené, pour cela nous avons fais appel à des garagistes que nous connaissions. Une fois à la maison nous avons 
+                        fait "l'état des lieux" afin de nous rendre compte des travaux à faire.
+                    </div>
+                    <div style="padding-top: 25px;">
+                        <button type="button" style="text-decoration: none; background-color: rgb(230, 115, 39); width: auto; height: auto; padding: 10px; border: unset; color: white; border-radius: 0px; box-shadow: unset;" onclick="toggle_div(this,'test-3');"  class="button" title="Afficher la suite">Lire la suite</button>
+                    </div>
+                </article>   
+            </div>
+
+            <div class="espacement"></div>
+         
+            <div class="article1">
+                <img style="width: 60%; height: 60%;" src="lancement.jpg" alt="">
+                <h3>LANCEMENT DU SITE GÉNIE MÉC'4L !</h3>
+                <p class="date">09/05/2020</p>
+
+                <article style="text-align: justify;">
+                    <div>
+                        Bonjour à tous ! <br>
+                        Bienvenue sur le nouveau site <strong>Génie Méc'4L</strong> !  <br>
+                    
+                    </div>
+                    <div id="article1" style="display:none">
+                        <br>
+                        Vous aurez la possibilité de retrouver ici tout un panel d’informations concernant notre participation à la <strong>24ème édition du 4L Trophy</strong>, qui se déroulera 
+                        du 18 au 28 février 2021. C’est en vous promenant à travers les pages de notre site que vous trouverez les informations en rapport avec l’organisation, 
+                        la préparation, la médiatisation ou même le budget de ce projet humanitaire. Des actualités seront régulièrement publiées pour vous tenir informés de son 
+                        avancement (préparation, partenariat). <br>
+                        <br>
+                        Pour nous soutenir, un système de <strong>financement participatif</strong> a été mis en place vous permettant de contribuer à cette aventure. <br>
+                        <br>
+                        Les <strong>dons de matériels</strong> sont également les bienvenus : équipements de sports, médicaux, informatiques, nourriture (non périssable), etc.
+                        Notre dossier sponsor est également téléchargeable, via le menu en haut à droite.
+                        Pour plus d’informations, vous pouvez nous contacter via la page <a href="gmContact.html">contact.</a> 
+                    </div>
+                    <div style="padding-top: 25px;">
+                        <button type="button" style="text-decoration: none; background-color: rgb(230, 115, 39); width: auto; height: auto; padding: 10px; border: unset; color: white; border-radius: 0px; box-shadow: unset;" onclick="toggle_div(this,'article1');"  class="button" title="Afficher la suite">Lire la suite</button>
+                    </div>
+                </article>   
+            </div>
+
+            <div class="espacement"></div>
+            
+        </div>
+
+    </body>
+
+</html>
