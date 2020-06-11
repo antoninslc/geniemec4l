@@ -61,28 +61,30 @@
                 </div>
         </div>
 
-        <a href="mailto:jules@free.fr">Ecrivez-moi</a>
-
         <div class="formulaire">
-                    <h1>Contact</h1>
-                    <form action="traitement.php" method="post">
-                        <p>
-                        <strong>Nom<span style="color: #ff0000;">*</span> :</strong> <label for="nom"> </label> <input id="nom" name="nom" size="28" type="text" /> <br> <br>
-                        <strong>Prénom :</strong> <label for="prenom"></label> <input id="prenom" name="prenom" size="27" type="text" /> <br /><br /> 
-                        <strong> Société : </strong><br /> <label for="societe"> </label> <input id="societe" name="societe" size="81" type="text" /> <br /><br /> 
-                        <strong>Mail <span style="color: #ff0000;">*</span> : </strong><br /> <label for="mail"> </label><input id="mail" name="mail" size="81" type="text" /></p>
-                        <p>Pour quelle raison nous contactez-vous ?</p>
-                        <label for="motif"></label> <select id="motif" name="motif"> <option value="reglement">Pour un renseignement</option> 
-                        <option value="enquete_commerciales">Pour un partenariat</option>
-                        <option value="recouvrement">Pour autre chose</option> 
-                        </select>
-                        <p>Message <span style="color: #ff0000;">*</span> :</p>
-                        <p><label for="message"></label> <textarea id="message" cols="52" rows="7" name="message"></textarea></p>
-                        <input type="reset" value="Effacer" /> <input type="submit" value="Envoyer" />
-                        <p> </p>
-                    </form>
+            <h1>Contact</h1>
+    <form method="post">
+        <label>Email</label>
+        <input type="email" name="email" required><br>
+        <label>Message</label>
+        <textarea name="message" required></textarea><br>
+        <input type="submit">
+    </form>
+    <?php
+    if (isset($_POST['message'])) {
+        $position_arobase = strpos($_POST['email'], '@');
+        if ($position_arobase === false)
+            echo '<p>Votre email doit comporter un arobase.</p>';
+        else {
+            $retour = mail('jules@free.fr', 'Envoi depuis la page Contact', $_POST['message'], 'From: ' . $_POST['email']);
+            if($retour)
+                echo '<p>Votre message a été envoyé.</p>';
+            else
+                echo '<p>Erreur.</p>';
+        }
+    }
+    ?>
         </div>
-        <div class="ecartement"></div>
     </body>
 
 </html>
