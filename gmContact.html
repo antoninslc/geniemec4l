@@ -65,21 +65,18 @@
 
         <div class="formulaire">
                     <h1>Contact</h1>
-                    <form action="traitement.php" method="post">
-                        <p>
-                        <strong>Nom<span style="color: #ff0000;">*</span> :</strong> <label for="nom"> </label> <input id="nom" name="nom" size="28" type="text" /> <br> <br>
-                        <strong>Prénom :</strong> <label for="prenom"></label> <input id="prenom" name="prenom" size="27" type="text" /> <br /><br /> 
-                        <strong> Société : </strong><br /> <label for="societe"> </label> <input id="societe" name="societe" size="81" type="text" /> <br /><br /> 
-                        <strong>Mail <span style="color: #ff0000;">*</span> : </strong><br /> <label for="mail"> </label><input id="mail" name="mail" size="81" type="text" /></p>
-                        <p>Pour quelle raison nous contactez-vous ?</p>
-                        <label for="motif"></label> <select id="motif" name="motif"> <option value="reglement">Pour un renseignement</option> 
-                        <option value="enquete_commerciales">Pour un partenariat</option>
-                        <option value="recouvrement">Pour autre chose</option> 
-                        </select>
-                        <p>Message <span style="color: #ff0000;">*</span> :</p>
-                        <p><label for="message"></label> <textarea id="message" cols="52" rows="7" name="message"></textarea></p>
-                        <input type="reset" value="Effacer" /> <input type="submit" value="Envoyer" />
-                        <p> </p>
+                    <form id="contact" method="post" action="traitement.php">
+                        <fieldset><legend>Vos coordonnées</legend>
+                            <p><label for="nom">Nom :</label><input type="text" id="nom" name="nom" /></p>
+                            <p><label for="email">Email :</label><input type="text" id="email" name="email" /></p>
+                        </fieldset>
+                     
+                        <fieldset><legend>Votre message :</legend>
+                            <p><label for="objet">Objet :</label><input type="text" id="objet" name="objet" /></p>
+                            <p><label for="message">Message :</label><textarea id="message" name="message" cols="30" rows="8"></textarea></p>
+                        </fieldset>
+                     
+                        <div style="text-align:center;"><input type="submit" name="envoi" value="Envoyer" /></div>
                     </form>
         </div>
         <div class="ecartement"></div>
