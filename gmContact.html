@@ -10,6 +10,7 @@
         <link rel="stylesheet" type="text/css" href="header.css">
         <link rel="stylesheet" type="text/css" href="Contact.css">
         <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <link rel="icon" type="image/png" href="icon.ico" />
 
 
     </head>
@@ -65,19 +66,37 @@
 
         <div class="formulaire">
                     <h1>Contact</h1>
-                    <form id="contact" method="post" action="traitement.php">
-                        <fieldset><legend>Vos coordonnées</legend>
-                            <p><label for="nom">Nom :</label><input type="text" id="nom" name="nom" /></p>
-                            <p><label for="email">Email :</label><input type="text" id="email" name="email" /></p>
-                        </fieldset>
-                     
-                        <fieldset><legend>Votre message :</legend>
-                            <p><label for="objet">Objet :</label><input type="text" id="objet" name="objet" /></p>
-                            <p><label for="message">Message :</label><textarea id="message" name="message" cols="30" rows="8"></textarea></p>
-                        </fieldset>
-                     
-                        <div style="text-align:center;"><input type="submit" name="envoi" value="Envoyer" /></div>
-                    </form>
+                    <div align=center> 
+                        <form method=POST action=traitement.php > <input type=hidden name=subject value=formmail> 
+                        <table> 
+                            <tr>
+                                <td>Nom</td> 
+                                <td><input type=text name=realname size=30></td>
+                            </tr> 
+                            <tr>
+                                <td>Société</td>
+                                <td>
+                                    <input type=text name=site size=30>
+                                </td>
+                            </tr> 
+                            <tr>
+                                <td>Email:</td> 
+                                <td>
+                                    <input type=text name=email size=30></td>
+                            </tr> 
+                            <tr>
+                                <td>Objet</td> 
+                                <td>
+                                    <input type=text name=title size=30></td>
+                            </tr> 
+                            <tr>
+                                <td colspan=2>Message<br> <textarea cols=50 rows=6 name=comments></textarea> 
+                                </td>
+                            </tr> 
+                        </table> <br> <input type=reset value=Annuler> - <input type=submit value=Envoyer>
+                        </form> 
+                        
+                    </div>
         </div>
         <div class="ecartement"></div>
     </body>

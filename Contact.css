@@ -18,7 +18,11 @@ p {
     
 }
 
-.formulaire {
+.contact {
     margin: 0 auto;
     float: none;
+}
+
+.formulaire {
+    margin: 0 auto;
 }
