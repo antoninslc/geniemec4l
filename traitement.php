@@ -1,2 +1,14 @@
-<?php $TO = "antonin.solacroup@gmail.com"; $h = "From: geniemec4l@site.com" . $TO; $message = ""; while (list($key, $val) = each($HTTP_POST_VARS)) 
-{ $message .= "$key : $val\n"; } mail($TO, $subject, $message, $h); Header("Location: https://geniemec4l.netlify.app/gmcontact"); ?>
+<?php
+    if (isset($_POST['message'])) {
+        $position_arobase = strpos($_POST['email'], '@');
+        if ($position_arobase === false)
+            echo '<p>Votre email doit comporter un arobase.</p>';
+        else {
+            $retour = mail('antonin.solacroup@gmail.com', 'Envoi depuis la page Contact', $_POST['message'], 'From: genie@mec4l.fr' . $_POST['email']);
+            if($retour)
+                echo '<p>Votre message a été envoyé.</p>';
+            else
+                echo '<p>Erreur.</p>';
+        }
+    }
+    ?>
