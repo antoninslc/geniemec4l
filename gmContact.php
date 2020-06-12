@@ -78,7 +78,7 @@
                          </td>
                         </tr>
                         <tr>
-                         <td valign="top"">
+                         <td valign="top">
                           <label for="prenom">Prénom *</label>
                          </td>
                          <td valign="top">
@@ -126,7 +126,7 @@
                     if(isset($_POST['email'])) {
                      
                         // EDIT THE 2 LINES BELOW AS REQUIRED
-                        $email_to = "votre@email";
+                        $email_to = "antonin.solacroup@gmail.com";
                         $email_subject = "Le sujet de votre email";
                      
                         function died($error) {
