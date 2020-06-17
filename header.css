@@ -10,18 +10,23 @@
 }
 
 .header__navbar {
-	width: 100%;
+	width: 1000px;
 	height: 90px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
 	white-space: nowrap;
+	margin: 0 auto;
+}
+
+.header__navbar-logo {
+	margin: 0 auto;
 }
 
 .header__navbar-logo-title {
 	color: white;
-	font-size: 25px;
+	font-size: 20px;
 }
 
 nav {
@@ -35,12 +40,12 @@ nav > ul::after {
 }
 
 nav > ul > li > a {
-	padding: 20px 30px;
+	padding: 20px 22px;
 
 }
 
 nav > ul > li:hover a {
-	padding: 18px 30px 20px 30px;
+	padding: 18px 22px 20px 22px;
 }
 
 nav > ul {
@@ -100,6 +105,10 @@ nav li:hover .NousSoutenir {
 
 }
 
+.header__navbar-menu {
+	margin: 0 auto;
+}
+
 .header__navbar-menu-link {
 	margin-left: ;
 	color: white;
@@ -123,7 +132,7 @@ nav li:hover .NousSoutenir {
 }
 
 a {
-	font-size: 14px;
+	font-size: 12px;
 }
 
 
