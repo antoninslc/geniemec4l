@@ -47,11 +47,11 @@ h2 {
 }
 
 .grille {
-	width: 1000px;
+	width: 940px;
 	height: auto;
 	margin: 0 auto;
 	padding: 20px;
-	padding-top: 0px;
+	padding-top: 0;
 }
 
   .child-page-listing > img {
