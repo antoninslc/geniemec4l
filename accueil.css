@@ -21,8 +21,11 @@
 	color: white;
 	font-size: 80px;
 	height: 200px;
-	padding-left: 180px;
+	width: 500px auto;
+	text-align: center;
 	font-family: 'Cinzel Decorative', cursive;
+	padding-right: 800px;
+	
 }
 
 .contenu {
