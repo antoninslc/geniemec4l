@@ -10,7 +10,7 @@
 }
 
 .header__navbar {
-	width: 1000px;
+	width: 950px;
 	height: 90px;
 	display: flex;
 	flex-direction: row;
@@ -27,6 +27,7 @@
 .header__navbar-logo-title {
 	color: white;
 	font-size: 20px;
+	padding-right: 30px;
 }
 
 nav {
@@ -47,6 +48,7 @@ nav > ul > li > a {
 nav > ul > li:hover a {
 	padding: 18px 22px 20px 22px;
 }
+
 
 nav > ul {
 	margin: 0px;
@@ -83,6 +85,7 @@ nav li:hover .NousSoutenir {
 	padding: 0px;
 	z-index: 1000;
 }
+
 
 .NousSoutenir li {
 	border-bottom: 1px solid white;
