@@ -46,12 +46,68 @@ h2 {
 	margin: 0 auto;
 }
 
+.direct {
+  width: 100%;
+  height: auto;
+  background-color: rgb(23, 45, 61);
+  margin: 0 auto;
+}
+
+button {
+  text-decoration: none; 
+  background-color: gray; 
+  width: auto; 
+  height: auto; 
+  padding: 10px; 
+  border: unset; 
+  color: black; 
+  border-radius: 0px; 
+}
+
+
+#togg2 {
+  float: right;
+}
+
+button:hover {
+  background-color: rgb(110, 110, 110);
+}
+
+.afficher {
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.txtvideo {
+  color: white;
+  padding-bottom: 20px;
+}
+
+#video {
+  width: 800px;
+  margin: 0 auto;
+  display: none;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.rediffusion {
+  width: 672px;
+  margin: 0 auto;
+  height: auto;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
 .grille {
 	width: 940px;
 	height: auto;
 	margin: 0 auto;
 	padding: 20px;
-	padding-top: 0;
+  padding-top: 0;
+  padding-bottom: 100px;
 }
 
   .child-page-listing > img {
@@ -121,6 +177,13 @@ h2 {
       filter: blur(2px);
     }
   }
+
+.transition {
+  width: 100%;
+  height: 140px;
+  background-image: url(capots.jpg);
+  background-size: cover;
+}
 
 .pieddepage {
 

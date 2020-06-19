@@ -17,7 +17,7 @@
 
 	</head>
 
-
+	
 	<body>
 		<div class="header">
 			<div class="container">
@@ -30,13 +30,13 @@
 							<ul>
 								<li><a class="header__navbar-menu-link" href="index.html" style="color: sandybrown; border-top: 2px solid sandybrown; padding: 18px 30px 20px 30px;"  >Accueil</a></li>
 								<li><a class="header__navbar-menu-link" href="le-4l-trophy.html">Le 4L Trophy</a></li>	
-								<li><a class="header__navbar-menu-link" href="l'équipage.html">L'équipage</a></li>
+								<li><a class="header__navbar-menu-link" href="l-equipage.html">L'équipage</a></li>
 								<li><a class="header__navbar-menu-link" href="notre-projet.html">Notre projet</a></li>		
-								<li><a class="header__navbar-menu-link" href="actualités.html">Actualités</a></li>
+								<li><a class="header__navbar-menu-link" href="actualites.html">Actualités</a></li>
 								<li class="menu-NousSoutenir"><a class="header__navbar-menu-link">Nous soutenir</a>
 									<ul class="NousSoutenir">
 										<li><a href="comment-nous-soutenir.html">Comment nous soutenir ?</a></li>
-										<li><a href="ils-nous-soutiennent-déjà.html">Ils nous soutiennent déjà</a></li>
+										<li><a href="ils-nous-soutiennent-deja.html">Ils nous soutiennent déjà</a></li>
 									</ul></li>
 								<li><a class="header__navbar-menu-link" href="contact.html">Contact</a></li>
 							</ul>
@@ -75,6 +75,33 @@
 				<strong>Comptable</strong> : Tom Denis
 			</p>
 		</div>
+		<div class="direct">
+			<div class="afficher">
+				<button id="togg1">Vidéo en direct et rediffusions</button>
+			</div>
+			<div id="video">
+				<p class="txtvideo">Vous trouverez ici les vidéos que nous feront en direct. Nous diffuserons les étapes du
+					4L Trophy ou autre.
+				</p>
+				<iframe width="672" height="378" src="https://www.youtube.com/bientotenlive" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>
+				<div class="rediffusion">
+					<a href="rediffusion.html" target="bank"><button id="togg2">Voir nos rediffusions</button></a>
+				</div>
+			</div>
+		</div>
+		<script>
+			let togg1 = document.getElementById("togg1");
+			let video = document.getElementById("video");
+			togg1.addEventListener("click", () => {
+			if(getComputedStyle(video).display != "none"){
+				video.style.display = "none";
+			} 
+			else {
+				video.style.display = "block";
+			}
+			})
+	
+		</script>
 		<div class="grille">
 			<div class="child-page-listing">
 
@@ -93,13 +120,25 @@
 						</div>
 				
 					</article>
+
+					<article id="3685" class="location-listing">
+			  
+						<a class="location-title" href="debut-travaux.jpg">Début des réparations</a>
+				
+						<div class="location-image">
+							<a href="#">
+								<img width="300" height="200" src="debut-travaux.jpg" alt="debut-travaux">      
+							</a>
+						</div>
+				
+					</article>
 				
 				</div>
 				<!-- end grid container -->
 			  
 			  </div>
 		</div>
-		<div class="ecartement"></div>
+		<div class="transition"></div>
 		<div class="pieddepage">
 			<img class="imgaccueil" src="Logo-IUT TOULOUSE-GMP.jpg" alt="">
 			<img class="imgaccueil" src="Logo-MFJA.png" alt="">
