@@ -1,5 +1,5 @@
 .texte {
-    width: 800px;
+    width: 900px;
     height: auto;
     margin: 0 auto;
     text-align: justify;
@@ -23,4 +23,9 @@
 
 ul {
     list-style-type: disc;
+}
+
+.txtsponsors {
+    width: 900px;
+    margin: 0 auto;
 }

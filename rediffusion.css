@@ -1,3 +1,28 @@
 body {
-background-color: rgb(23, 45, 61);
+background-color: gray;
+}
+
+.titre {
+    font-size: 32px;
+    background-color: rgb(36, 68, 92);
+    padding-bottom: 40px;
+    padding-top: 40px;
+    color: white;
+
+}
+
+.flex {
+    background-color: rgb(36, 68, 92);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.base {
+    padding: 10px;
+}
+
+.description {
+    text-align: left;
 }
