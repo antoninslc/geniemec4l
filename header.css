@@ -2,7 +2,7 @@
 	height: 100px;
 	width: 100%;
 	position: fixed;
-	background-color: rgb(36, 68, 92);
+	background-color: #2F2E2E;
 	display: flex;
 	margin: 0px;
 	padding: 0px;
@@ -101,7 +101,7 @@ nav li:hover .NousSoutenir {
 }
 
 .menu-NousSoutenir .NousSoutenir {
-	background-color: rgb(36, 68, 92);
+	background-color: #2F2E2E;
 }
 
 .NousSoutenir li:hover a {
