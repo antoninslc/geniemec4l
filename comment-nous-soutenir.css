@@ -1,6 +1,6 @@
 .texte {
     width: 900px;
-    height: auto;
+    height: 1100px;
     margin: 0 auto;
     text-align: justify;
 }
@@ -10,6 +10,14 @@
     height: 680px;
     margin: 0 auto;
     text-align: justify;
+}
+
+.disposition {
+    background-color: blueviolet;
+    width: 900px;
+    height: auto;
+    margin: 0 auto;
+
 }
 
 .numeros {
@@ -28,4 +36,13 @@ ul {
 .txtsponsors {
     width: 900px;
     margin: 0 auto;
+}
+
+@media only screen and (max-width: 1050px) {
+    .texte {
+        width: 900px;
+        height: 1300px;
+        margin: 0 auto;
+        text-align: justify;
+    }
 }

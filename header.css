@@ -74,6 +74,12 @@ nav a {
 	text-decoration: none;
 }
 
+#select {
+	color: sandybrown; 
+	border-top: 2px solid sandybrown; 
+	padding: 18px 30px 20px 30px;
+}
+
 .soutenir {
 	color: white;
 	display: none;
@@ -151,6 +157,7 @@ a {
 	align-items: center;
 	display: none;
 	cursor: pointer;
+	padding-right: 20px;
 }
 
 .header__navbar-toggle-icons, .header__navbar-toggle-icons::before, .header__navbar-toggle-icons::after {
@@ -170,34 +177,37 @@ a {
 	transform: translateY(0);
 }
 
-@media only screen and (max-width: 1000px){
+/*--------------------POUR TABLETTES----------------------*/
+
+@media only screen and (max-width: 1050px){
 	.container {
 		width: 100%;
 		padding: 0 20px;
 	}
 	.header__navbar-toggle {
 		display: flex;
-		z-index: 900;
+		z-index: 10;
 	}
 	.header__navbar-menu {
+		padding-top: 35px;
 		transform: translateY(-400%);
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		position: absolute;
-		width: 100vw;
-		height: 100vh;
-		background: #2F2E2E;
-		top: 0; left: 0;
+		width: 50%;
+		height: 800px;
+		background: #2f2e2eb9;
+		top: 0; right: -0;
 	}
 	ul {
 		display: flex;
 		flex-direction: column;
 	}
 	.header__navbar-menu-link, .soutenir {
-		font-size: 28px;
-		margin-bottom: 25px;
+		font-size: 20px;
+		margin-bottom: 12px;
 	}
 
 	#NousSoutenir {
@@ -206,54 +216,128 @@ a {
 
 	.soutenir {
 		display: flex;
+	}	
+	
+	#select {
+		color: sandybrown; 
+		border-top: none;
+		padding: 20px 30px 20px 30px;
 	}
 
 	.header__navbar-logo-title {
 		padding-left: 60px;
 	}
+
+/*--------------------POUR SMARTPHONE----------------------*/
+
+	@media only screen and (max-height: 750px) {
+		.container {
+			width: 100%;
+			padding: 0 20px;
+		}
+		.header__navbar-toggle {
+			display: flex;
+			z-index: 900;
+		}
+		.header__navbar-menu {
+			padding-top: 50px;
+			transform: translateY(-400%);
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			position: absolute;
+			width: 25%;
+			height: 100vh;
+			background: #2f2e2eb9;
+			top: 0; right: -0;
+		}
+		ul {
+			display: flex;
+			flex-direction: column;
+		}
+		.header__navbar-menu-link, .soutenir {
+			font-size: 15px;
+			padding: 15px;
+			margin: 0;
+			bottom: 0;
+		}
+	
+		#NousSoutenir {
+			display: none;
+		}
+	
+		.soutenir {
+			display: flex;
+		}
+
+		#select {
+			color: sandybrown; 
+			border-top: none;
+			padding: 15px 30px 15px 30px;
+		}
+	
+		.header__navbar-logo-title {
+			padding-left: 60px;
+		}
+	}
+
+/*--------------------POUR IPHONE X (par exemple)----------------------*/
+
+	@media only screen and (max-height: 500px) {
+		.container {
+			width: 100%;
+			padding: 0 20px;
+		}
+		.header__navbar-toggle {
+			display: flex;
+			z-index: 900;
+		}
+		.header__navbar-menu {
+			padding-top: 50px;
+			transform: translateY(-400%);
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			position: absolute;
+			width: 25%;
+			height: 100vh;
+			background: #2f2e2eb9;
+			top: 0; right: -0;
+		}
+		ul {
+			display: flex;
+			flex-direction: column;
+		}
+		.header__navbar-menu-link, .soutenir {
+			font-size: 15px;
+			padding: 10px;
+			margin: 0;
+			bottom: 0;
+		}
+	
+		#NousSoutenir {
+			display: none;
+		}
+	
+		.soutenir {
+			display: flex;
+		}
+
+		#select {
+			color: sandybrown; 
+			border-top: none;
+			padding: 10px 30px 10px 30px;
+		}
+	
+		.header__navbar-logo-title {
+			padding-left: 60px;
+		}
+	}
+
 }
 
-@media only screen and (max-height: 800px) {
-	.container {
-		width: 100%;
-		padding: 0 20px;
-	}
-	.header__navbar-toggle {
-		display: flex;
-		z-index: 900;
-	}
-	.header__navbar-menu {
-		transform: translateY(-400%);
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		position: absolute;
-		width: 100vw;
-		height: 100vh;
-		background: #2F2E2E;
-		top: 0; left: 0;
-	}
-	ul {
-		display: flex;
-		flex-direction: column;
-	}
-	.header__navbar-menu-link, .soutenir {
-		font-size: 15px;
-		margin-bottom: 10px;
-	}
 
-	#NousSoutenir {
-		display: none;
-	}
-
-	.soutenir {
-		display: flex;
-	}
-
-	.header__navbar-logo-title {
-		padding-left: 60px;
-	}
-}
 
 

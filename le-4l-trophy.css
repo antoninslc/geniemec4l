@@ -1,8 +1,9 @@
 .Le4LTrophy {
 	width: 100%;
-	height: auto;
+	height: 100%;
     margin: 0 auto;
     background-color: white;
+    right: 0;
 }
 .bleu {
     width: 100%;
