@@ -1,8 +1,13 @@
 .texte {
     width: 900px;
-    height: 1100px;
+    height: 1200px;
     margin: 0 auto;
     text-align: justify;
+}
+
+.lien {
+    font-size: 22px; 
+    text-decoration: none;
 }
 
 .sponsors {
@@ -13,8 +18,7 @@
 }
 
 .disposition {
-    background-color: blueviolet;
-    width: 900px;
+    width: 840px;
     height: auto;
     margin: 0 auto;
 
@@ -38,11 +42,12 @@ ul {
     margin: 0 auto;
 }
 
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 900px) {
     .texte {
-        width: 900px;
-        height: 1300px;
-        margin: 0 auto;
-        text-align: justify;
+        height: 2100px;
+    }
+
+    .lien {
+        font-size: 28px;
     }
 }

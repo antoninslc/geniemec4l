@@ -5,8 +5,9 @@
 }
 
 .button:hover {
-    background-color: rgba(230, 115, 39, 0.678);
-    color: tan;
+    background-color: rgb(202, 102, 36);
+    color: rgb(255, 255, 255);
+    border: unset;
 }
 
 .espacement {
@@ -14,6 +15,18 @@
     height: 75px;
 }
 
+.button {
+    text-decoration: none; 
+    background-color: rgb(230, 115, 39); 
+    width: auto; 
+    height: auto; 
+    padding: 10px; 
+    border: unset; 
+    color: white; 
+    border-radius: 0px; 
+    box-shadow: unset;
+    margin-bottom: 50px;
+}
 
 .date {
     color: gray; 

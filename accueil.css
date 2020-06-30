@@ -23,12 +23,20 @@ h2 {
 }
 
 .titreaccueil {
+  margin-top: 0px;
+  padding-top: 70px;
 	color: white;
 	font-size: 70px;
 	height: 200px;
 	text-align: center;
 	font-family: 'Cinzel Decorative', cursive;
 	
+}
+
+@media only screen and (max-width: 1010px) {
+  .titreaccueil {
+      margin-top: -400px;
+  }
 }
 
 .contenu {

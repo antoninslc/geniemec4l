@@ -44,6 +44,12 @@ h2 {
     font-size: 24px;
 }
 
+@media only screen and (max-width: 900px) {
+    h2 {
+        font-size: 28px;
+    }
+}
+
 h3 {
     font-size: 28px; 
     text-align: left; 
@@ -53,8 +59,14 @@ h3 {
 }
 
 p {
-	font-size: 18px;
+	font-size: 20px;
 	text-align: justify;
+}
+
+@media only screen and (max-width: 1010px) {
+    p {
+        font-size: 28px;
+    }
 }
 
 .edd {

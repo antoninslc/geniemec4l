@@ -1,5 +1,11 @@
 .contenu {
     width: 800px;
-    height: auto;
+    height: 2000px;
     margin: 0 auto;
+}
+
+@media only screen and (max-width: 1050px) {
+    .contenu {
+        height: 2700px;
+    }
 }
