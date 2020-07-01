@@ -42,7 +42,7 @@ ul {
     margin: 0 auto;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1010px) {
     .texte {
         height: 2100px;
     }

@@ -24,7 +24,7 @@ h2 {
 
 .titreaccueil {
   margin-top: 0px;
-  padding-top: 70px;
+  padding-top: 50px;
 	color: white;
 	font-size: 70px;
 	height: 200px;
@@ -35,7 +35,13 @@ h2 {
 
 @media only screen and (max-width: 1010px) {
   .titreaccueil {
-      margin-top: -400px;
+      margin-top: -150px;
+  }
+
+  .timertexte {
+    width: 800px;
+    margin: 0 auto;
+    color: white;
   }
 }
 
@@ -47,6 +53,12 @@ h2 {
 	padding-bottom: 80px;
 }
 
+.timertexte {
+  width: 800px;
+  margin: 0 auto;
+  color: white;
+  font-size: 20px;
+}
 .association {
 	text-align: justify;
 	color: white;
