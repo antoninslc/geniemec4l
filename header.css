@@ -28,7 +28,15 @@
 .header__navbar-logo-title {
 	color: white;
 	font-size: 20px;
-	padding-right: 30px;
+	line-height: 80px;
+}
+
+.img {
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-top: 20px;
+	margin-right: 20px;
 }
 
 nav {
@@ -190,6 +198,7 @@ a {
 	}
 	.header__navbar-menu {
 		padding-top: 35px;
+		transition: all 0.3s ease-in-out;
 		transform: translateY(-400%);
 		display: flex;
 		flex-direction: column;
@@ -226,12 +235,19 @@ a {
 	}
 
 	.header__navbar-logo-title {
-		margin-left: 100px;
 		font-size: 40px;
 	}
 
 	.header {
 		height: 120px;
+	}
+
+	.img {
+		width: 80px;
+		height: 80px;
+		float: left;
+		margin-top: 40px;
+		margin-right: 20px;
 	}
 
 /*--------------------POUR SMARTPHONE----------------------*/
@@ -247,6 +263,7 @@ a {
 		}
 		.header__navbar-menu {
 			padding-top: 50px;
+			transition: all 0.3s ease-in-out;
 			transform: translateY(-400%);
 			display: flex;
 			flex-direction: column;
@@ -306,6 +323,7 @@ a {
 		}
 		.header__navbar-menu {
 			padding-top: 50px;
+			transition: all 0.3s ease-in-out;
 			transform: translateY(-400%);
 			display: flex;
 			flex-direction: column;
