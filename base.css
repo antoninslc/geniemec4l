@@ -66,12 +66,19 @@ p {
 @media only screen and (max-width: 1010px) {
     p {
         font-size: 28px;
-    }
+	}
 }
 
 .edd {
     text-decoration: none; 
-    font-size: 18px;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 1010px){
+	
+	.edd {
+		font-size: 26px;
+	}
 }
 
 .ecartement {

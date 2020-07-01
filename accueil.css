@@ -43,11 +43,12 @@ h2 {
     margin: 0 auto;
     color: white;
   }
+
 }
 
 .contenu {
 	width: 100%;
-	height: 500px;
+	height: auto;
 	margin: 0 auto;
 	background-color: #2F2E2E;
 	padding-bottom: 80px;
