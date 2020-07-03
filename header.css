@@ -242,6 +242,11 @@ a {
 		height: 120px;
 	}
 
+	.header__navbar-logo {
+		width: 420px;
+		padding-left: 95px;
+	}
+
 	.img {
 		width: 80px;
 		height: 80px;
@@ -308,6 +313,8 @@ a {
 		.header {
 			height: 120px;
 		}
+
+
 	}
 
 /*--------------------POUR IPHONE X (par exemple)----------------------*/
