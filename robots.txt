@@ -1,11 +1,14 @@
 User-agent: *
-Allow: /index.html/
-Disallow: /le-4l-Trophy/
-Disallow: /l-equipage/
-Disallow: /notre-projet/
-Disallow: /actualites/
-Disallow: /comment-nous-soutenir/
-Disallow: /ils-nous-soutiennent-deja/
-Disallow: /contact/
+Allow: /index.html
+Allow: /le-4l-Trophy
+Allow: /l-equipage
+Allow: /notre-projet
+Allow: /actualites
+Allow: /comment-nous-soutenir
+Disallow: /ils-nous-soutiennent-deja
+Allow: /contact
+
+User-agent: Googlebot-Image
+Disallow: /
 
 sitemap: http://www.geniemec4l.fr/sitemap.xlm
