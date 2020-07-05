@@ -23,12 +23,17 @@
 
 .header__navbar-logo {
 	margin: 0 auto;
+	text-align: center;
 }
 
 .header__navbar-logo-title {
 	color: white;
 	font-size: 20px;
 	line-height: 80px;
+}
+
+.imgtel {
+	display: none;
 }
 
 .img {
@@ -108,15 +113,14 @@ nav li:hover .NousSoutenir {
 
 
 .NousSoutenir li {
-	border-bottom: 1px solid white;
-	font-size: 15px;
+	border-bottom: 1px solid #505050;
 }
 
 .NousSoutenir li a {
 	padding: 15px 25px;
-	font-size: 12px;
+	font-size: 16px;
 	color: white;
-	width: 150px;
+	width: 200px;
 }
 
 .menu-NousSoutenir .NousSoutenir {
@@ -154,7 +158,7 @@ nav li:hover .NousSoutenir {
 }
 
 a {
-	font-size: 12px;
+	font-size: 16px;
 }
 
 
@@ -240,19 +244,24 @@ a {
 
 	.header {
 		height: 120px;
+		text-align: center;
 	}
 
 	.header__navbar-logo {
-		width: 420px;
-		padding-left: 95px;
+		padding-right: 40px;
+		width: auto;
 	}
 
 	.img {
+		display: none;
+	}
+
+	.imgtel {
 		width: 80px;
 		height: 80px;
 		float: left;
-		margin-top: 40px;
-		margin-right: 20px;
+		margin-left: 40px;
+		display: block;
 	}
 
 /*--------------------POUR SMARTPHONE----------------------*/
@@ -306,7 +315,6 @@ a {
 		}
 	
 		.header__navbar-logo-title {
-			padding-left: 60px;
 			font-size: 40px;
 		}
 

@@ -1,7 +1,12 @@
 .articles {
     width: 800px;
-    height: 1700px;
+    height: auto;
     margin: 0 auto;
+}
+
+.article {
+    border-bottom: 2px solid #2F2E2E;
+    padding: 25px;
 }
 
 .button:hover {
@@ -33,4 +38,8 @@
     font-size: 18px; 
     text-align: left; 
     font-style: italic;
+}
+
+h3 {
+    text-align: left;
 }

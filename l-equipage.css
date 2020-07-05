@@ -1,37 +1,80 @@
-
-body {
-    background-color: white;
+.contenu {
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
 }
 
-
-    
 .Louis, .Tom {
-        width: 800px;
-        height: 300px;
-        margin: 0 auto;
-        background-color: white;
-        text-align: center;
-        align-items: center;
-        vertical-align: middle;
-        padding-top: -50px;
-       
- }
-
-    
-.texte1 {
-    float: right;
-    font-size: 18px;
-    height: 250px;
-    width: 500px;
-    background-color: white;
-    text-align: left;
-    text-align: justify;
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
 }
-.texte2 {
+
+.gauche {
+    width: 50%;
+    height: 100%;
+    float: right;
+    background: url(Louis.jpg) no-repeat center center;
+    background-size: cover; 
+}
+
+.droite {
+    width: 50%;
+    height: 100%;
     float: left;
-    font-size: 18px;
-    height: 250px;
+}
+
+.left {
     width: 500px;
-    background-color: white;
-    text-align: right;
+    height: 100%;
+    float: left;
+    background: url(Tom.jpg) no-repeat center center;
+    background-size: cover; 
+}
+
+.right {
+    width: 500px;
+    height: 100%;
+    float: right;
+}
+
+.texte {
+    width: 400px;
+    height: auto;
+    position: sticky;
+    top: 200px;
+    padding: 25px;
+    padding-top: 0;
+    margin: 25px;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: justify;
+    border-bottom: 1px solid #2f2e2e;
+}
+
+h5 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    line-height: 0px;
+    color: #2f2e2e;
+}
+
+.description {
+    margin: 0 auto;
+    width: 1000px;
+    height: auto;
+}
+
+.description > p {
+    text-align: center;
+}
+
+p {
+    font-size: 22px;
+}
+
+@media only screen and (max-width: 1010px) {
+    .texte {
+        position: unset;
+    }
 }
