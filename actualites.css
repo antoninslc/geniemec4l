@@ -1,45 +1,102 @@
-.articles {
-    width: 800px;
+.body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 100%;
     height: auto;
-    margin: 0 auto;
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-.article {
-    border-bottom: 2px solid #2F2E2E;
-    padding: 25px;
+.lastnews {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 40px;
+    padding: 40px;
 }
 
-.button:hover {
-    background-color: rgb(202, 102, 36);
-    color: rgb(255, 255, 255);
-    border: unset;
+.lastnews img {
+    width: 850px;
+    border-radius: 20px;
 }
 
-.espacement {
-    width: auto;
-    height: 75px;
+.lastnews__text {
+    width: 580px;
+    padding: 40px;
+    padding-top: 0;
 }
 
-.button {
-    text-decoration: none; 
-    background-color: #2f2E2E; 
-    width: auto; 
-    height: auto; 
-    padding: 10px; 
-    border: unset; 
-    color: white; 
-    border-radius: 0px; 
-    box-shadow: unset;
-    margin-bottom: 50px;
+.lastnews__text h4 {
+    color: #2f2e2e;
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.lastnews__text p {
+    font-size: 24px;
 }
 
 .date {
-    color: gray; 
-    font-size: 18px; 
-    text-align: left; 
-    font-style: italic;
+    font-size: 22px;
+    font-weight: 600
 }
 
-h3 {
+.actu {
+    padding: 40px;
+    width: 700px;
+    height: auto;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+/*.actu:hover {
+    width: 730px;
+    transition: all 0.5s ease-in-out;
+}
+
+.actu:hover p {
+    padding-right: 15px;
+    padding-left: 15px;
+    transition: padding 0.5s ease-in-out;
+}*/
+
+.actu img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.actu h4 {
     text-align: left;
+    font-size: 28px;
+    padding-top: 30px;
+    margin: 0;
+}
+
+.actu p {
+    color: #000;
+}
+
+.espacement {
+    width: 100%;
+    height: 100px;
+}
+
+@media (orientation: portrait) {
+    .lastnews__text {
+        width: 800px;
+    }
+
+    .lastnews__text p {
+        font-size: 33px;
+    }
 }
