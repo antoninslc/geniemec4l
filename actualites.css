@@ -13,6 +13,10 @@
     justify-content: space-evenly;
 }
 
+#lastnews {
+    display: none;
+}
+
 .lastnews {
     width: 100%;
     display: flex;
@@ -80,6 +84,7 @@
     font-size: 28px;
     padding-top: 30px;
     margin: 0;
+    font-weight: bolder;
 }
 
 .actu p {
@@ -92,11 +97,15 @@
 }
 
 @media (orientation: portrait) {
-    .lastnews__text {
-        width: 800px;
+    #lastnews {
+        display: block;
     }
 
-    .lastnews__text p {
-        font-size: 33px;
+    .lastnews {
+        display: none;
+    }
+
+    #actu__espacement {
+        display: none;
     }
 }

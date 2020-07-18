@@ -10,29 +10,29 @@
     margin: 0 auto;
 }
 
-.gauche {
+.louis__gauche {
     width: 50%;
     height: 100%;
     float: right;
-    background: url(Louis.jpg) no-repeat center center;
+    background: url(img/Louis.jpg) no-repeat center center;
     background-size: cover; 
 }
 
-.droite {
+.louis__droite {
     width: 50%;
     height: 100%;
     float: left;
 }
 
-.left {
+.tom__gauche {
     width: 500px;
     height: 100%;
     float: left;
-    background: url(Tom.jpg) no-repeat center center;
+    background: url(img/Tom.jpg) no-repeat center center;
     background-size: cover; 
 }
 
-.right {
+.tom__droite {
     width: 500px;
     height: 100%;
     float: right;
@@ -76,5 +76,23 @@ p {
 @media only screen and (max-width: 1010px) {
     .texte {
         position: unset;
+    }
+}
+
+@media (orientation: portrait) {
+    .contenu {
+        width: 950px;
+    }
+
+    .Louis, .Tom {
+        width: 100%;
+    }
+
+    .louis__droite, .louis__gauche, .tom__droite, .tom__gauche {
+        width: 475px;
+    }
+
+    .description {
+        width: 950px;
     }
 }
