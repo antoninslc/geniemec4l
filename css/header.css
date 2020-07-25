@@ -1,0 +1,456 @@
+body {
+	transition: 0.5s;
+}
+
+.header {
+	height: 100px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	background-color: #2F2E2E;
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+	z-index: 1000;
+}
+
+.header__navbar {
+	width: 100%;
+	height: 90px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	white-space: nowrap;
+	margin: 0 auto;
+}
+
+.header__navbar-logo {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.header__navbar-logo-title {
+	color: white;
+	font-size: 20px;
+	line-height: 80px;
+}
+
+.imgtel {
+	display: none;
+}
+
+.img {
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+nav {
+	width: 100%;
+}
+
+nav > ul::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+nav > ul > li > a {
+	padding: 20px 22px;
+
+}
+
+nav > ul > li:hover a {
+	padding: 18px 22px 20px 22px;
+}
+
+
+nav > ul {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	margin: auto;
+}
+
+nav li {
+	list-style-type: none;
+}
+
+nav > ul > li {
+	float: left;
+	vertical-align: middle;
+	position: relative;
+	margin: 0 auto;
+}
+
+nav a {
+	display: inline-block;
+	text-decoration: none;
+}
+
+#select {
+	color: sandybrown; 
+	border-top: 2px solid sandybrown; 
+	padding: 18px 30px 20px 30px;
+}
+
+.soutenir {
+	color: white;
+	display: none;
+}
+
+.NousSoutenir {
+	display: none;
+}
+
+nav li:hover .NousSoutenir {
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	padding: 0px;
+	z-index: 1000;
+}
+
+
+.NousSoutenir li {
+	border-bottom: 1px solid #505050;
+}
+
+.NousSoutenir li a {
+	padding: 15px 25px;
+	font-size: 16px;
+	color: white;
+	width: 200px;
+}
+
+.menu-NousSoutenir .NousSoutenir {
+	background-color: #2F2E2E;
+}
+
+.NousSoutenir li:hover a {
+	color: sandybrown;
+
+}
+
+.header__navbar-menu {
+	margin: 0 auto;
+}
+
+.header__navbar-menu-link {
+	color: white;
+	text-decoration: none;
+	margin: 0 auto;
+
+}
+
+.header__navbar-menu-dossier {
+	color: white;
+	text-decoration: none;
+	
+}
+
+.header__navbar-menu-link:hover {
+	color: sandybrown;
+}
+
+.header__navbar-menu-dossier:hover {
+	font-weight: bold;
+}
+
+a {
+	font-size: 16px;
+}
+
+
+.toggle {
+    position: relative;
+    width: 60px;
+	height: 40px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+
+.toggle:before {
+    content: "";
+    position: absolute;
+    top: 7px;
+    width: 100%;
+    height: 2px;
+	background: #fff;
+}
+
+.toggle:after {
+    content: "";
+    position: absolute;
+    bottom: 7px;
+    width: 100%;
+    height: 2px;
+	background: #fff;
+}
+
+
+.page.is-open .toggle:before {
+    top: 50%;
+    left: 50%;
+	transform: translate(-50%,-50%) rotate(41deg);
+}
+
+.page.is-open .toggle:after {
+    top: 50%;
+    left: 50%;
+	transform: translate(-50%,-50%) rotate(-45deg);
+}
+
+.banner.active {
+    transform: translateX(-400px);
+    transition: 0.5s;
+}
+
+.is-open .header__navbar-menu {
+	transform: translateY(0);
+}
+
+.page {
+	width: 100%;
+	height: 100%;
+	transition: 0.5s;
+	z-index: 2;
+	position: absolute;
+	transform: translateX(0);
+}
+
+.page.is-open {
+	transform: translateX(-400px);
+    transition: 0.5s;
+}
+
+.navigation {
+	padding-top: 30%;
+	position: relative;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 400px;
+    height: 100%;
+	background: rgb(67, 79, 105);
+	z-index: 1;
+	display: none;
+	text-align: left;
+    place-items: top;
+	transition: right 0.5s;
+}
+
+.nav__container {
+    top: 0;
+    width: 400px;
+    height: 100%;
+	text-align: left;
+    place-items: top;
+}
+
+.nav__container ul{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav__container ul li {
+    list-style: none;
+}
+
+.nav__container ul li a {
+    color: #fff;
+    padding: 24px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.navigation.is-open {
+	right: 0;
+    transition: 0.5s;
+}
+
+.toggle__container {
+	width: 100%;
+	height: 120px;
+	padding-top: 40px;
+	padding-left: 60px;
+}
+
+.sci {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	padding: 40px;
+}
+
+.sci a img {
+	padding: 24px;
+	width: 75px;
+	height: 75px;
+}
+
+
+@media (orientation: portrait), (max-width: 1366px) {
+
+	.white {
+		height: 115px;
+	}
+
+	.header__navbar-toggle {
+		display: flex;
+		z-index: 10;
+	}
+
+	.header__navbar-logo-title {
+		font-size: 40px;
+	}
+
+	.header {
+		height: 120px;
+		text-align: center;
+	}
+
+	.header__navbar-menu {
+		display: none;
+	}
+
+	.header__navbar-logo {
+		padding-right: 40px;
+		width: auto;
+	}
+
+	.navigation {
+		display: grid;
+	}
+
+	.img {
+		display: none;
+	}
+
+	.imgtel {
+		width: 80px;
+		height: 80px;
+		float: left;
+		display: block;
+	}
+
+	.toggle {
+		display: block;
+	}
+
+	.bottom {
+		display: none;
+	}
+}
+
+/*media for iPhone 6,7,8 in landscape */
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : landscape) {
+
+	.navigation {
+		padding-top: 5%;
+	}
+
+	.navigation ul li a {
+		padding: 12px;
+		font-size: 16px;
+	}
+
+	.nav__container ul {
+		height: 60%;
+	}
+
+	.sci {
+		flex-direction: row;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.sci a img {
+		width: 60px;
+		height: 60px;
+		padding: 12px;
+	}
+}
+
+/*media for iPhone X in portrait */
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) and (orientation : portrait) {
+	.navigation {
+		padding-top: 150px;
+	}
+
+	.navigation ul li a {
+		padding: 20px;
+		padding-bottom: 26px;
+		font-size: 30px;
+	}
+
+	.nav__container ul {
+		height: auto;
+	}
+
+	.sci {
+		flex-direction: column;
+		padding-top: 80px;
+		padding-bottom: 0;
+	}
+
+	.sci a img {
+		width: 80px;
+		height: 80px;
+		padding: 20px;
+	}
+}
+
+/*media for iPad in portrait */
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	.navigation {
+		padding-top: 75px;
+	}
+}
+
+
+
+/*media for iPad in landscape */
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+	.navigation {
+		padding-top: 80px;
+	}
+
+	.navigation ul li a {
+		padding: 16px;
+		font-size: 22px;
+	}
+
+	.nav__container ul {
+		height: auto;
+		padding-bottom: 40px;
+	}
+
+	.sci {
+		flex-direction: row;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.sci a img {
+		width: 60px;
+		height: 60px;
+		padding: 12px;
+	}
+}
+
+
+
+

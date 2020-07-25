@@ -1,0 +1,105 @@
+.contenu {
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.Louis, .Tom {
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.louis__droite {
+    width: 50%;
+    height: 100%;
+    float: right;
+    background: url(img/Louis.jpg) no-repeat center center;
+    background-size: cover; 
+}
+
+.louis__gauche {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.tom__gauche {
+    width: 500px;
+    height: 100%;
+    float: left;
+    background: url(img/Tom.jpg) no-repeat center center;
+    background-size: cover; 
+}
+
+.tom__droite {
+    width: 500px;
+    height: 100%;
+    float: right;
+}
+
+.texte {
+    width: 400px;
+    height: auto;
+    position: sticky;
+    top: 200px;
+    padding: 25px;
+    padding-top: 0;
+    margin: 25px;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: justify;
+    border-bottom: 1px solid #2f2e2e;
+}
+
+h5 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    line-height: 0px;
+    color: #2f2e2e;
+}
+
+.description {
+    margin: 0 auto;
+    width: 1000px;
+    height: auto;
+}
+
+.description > p {
+    text-align: center;
+}
+
+p {
+    font-size: 22px;
+}
+
+.page {
+    background: #fff;
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 1010px) {
+    .texte {
+        position: unset;
+    }
+}
+
+@media (orientation: portrait) {
+    .contenu {
+        width: 950px;
+    }
+
+    .Louis, .Tom {
+        width: 100%;
+    }
+
+    .louis__droite, .louis__gauche, .tom__droite, .tom__gauche {
+        width: 475px;
+    }
+
+    .description {
+        width: 950px;
+    }
+}

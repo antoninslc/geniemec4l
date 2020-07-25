@@ -1,4 +1,14 @@
-$('.header__navbar-toggle').click(function(e) {
+$('.toggle').click(function(e) {
 	e.preventDefault();
-	$('.header__navbar').toggleClass('is-open');
+	$('.page').toggleClass('is-open');
+})
+
+$('.toggle').click(function(e) {
+	e.preventDefault();
+	$('.navigation').toggleClass('is-open');
+})
+
+$('#navigation__toggle').click(function(e) {
+	e.preventDefault();
+	$('body').toggleClass('is-open-off');
 })

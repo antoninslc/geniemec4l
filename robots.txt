@@ -9,6 +9,9 @@ Disallow: /ils-nous-soutiennent-deja
 Allow: /contact
 
 User-agent: Googlebot-Image
-Disallow: /
+Allow: /
+Disallow: /css/img/Louis.jpg
+Disallow: /css/img/Tom.jpg
+Disallow: /img/budget.jpg
 
 sitemap: http://www.geniemec4l.fr/sitemap.xlm
