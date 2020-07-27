@@ -145,13 +145,15 @@ h2 {
 
 
 .pieddepage {
-  background: #fff;
+  	background: #fff;
 	height: auto;
 	width: auto;
-  padding: 50px;
+  	padding: 50px;
 }
 
 .imgaccueil {
 	padding-left: 30px;
 	padding-right: 30px;
+	padding-bottom: 0;
+	height: 100px;
 }
