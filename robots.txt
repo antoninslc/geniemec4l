@@ -5,7 +5,7 @@ Allow: /l-equipage
 Allow: /notre-projet
 Allow: /actualites
 Allow: /comment-nous-soutenir
-Disallow: /ils-nous-soutiennent-deja
+Allow: /ils-nous-soutiennent-deja
 Allow: /contact
 
 User-agent: Googlebot-Image

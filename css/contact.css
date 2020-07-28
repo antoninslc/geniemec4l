@@ -1,6 +1,6 @@
 .contact {
     width: 800px;
-    height: 750px;
+    height: auto;
     margin: 0 auto;
 }
 
@@ -10,22 +10,17 @@
     float: left;
 }
 
+.espace {
+    height: 65px;
+}
+
 .phone1 {
     width: 400px;
     height: 60px;
     line-height: 60px;
     text-decoration: none;
-    font-size: 25px;
+    
     color: black;
-}
-
-.text {
-    font-size: 25px;
-    margin-top: 0px;
-    line-height: 250px;
-    text-decoration: none;
-    color: black;
-    font-style: normal;
 }
 
 .imgphone {
@@ -42,6 +37,14 @@
     float: right;
 }
 
+.text {
+    margin-top: 0px;
+    line-height: 250px;
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+}
+
 .imgmail {
     width: 400px;
     height: 250px;
@@ -56,12 +59,17 @@
 }
 
 .text2 {
-    font-size: 25px;
     margin-top: 0px;
     padding-top: 90px;
     text-decoration: none;
     text-align: center;
 
+}
+
+.adress a {
+    text-decoration: none; 
+    font-style: normal; 
+    color: black;
 }
 
 .imgadress {
@@ -71,13 +79,84 @@
     background-image: url(img/contact3.jpg);
 }
 
-.test {
-    width: 50px;
-    height: 50px;
-    background-color: black;
-}
-
 .nom {
     color: gray; 
-    font-size: 18px;
+    font-size: 22px;
+}
+
+.phone, .imgphone, .mail, .imgmail, .adress, .imgadress {
+    border-radius: 20px;
+}
+
+.text, .text2, .phone .phone1 {
+    font-size: 28px;
+}
+
+@media (orientation: portrait), (max-width: 1366px) {
+    .page {
+        height: 100%;
+    }
+
+    .ecartement {
+        display: none;
+    }
+
+    .contact {
+        width: 950px;
+        height: auto;
+    }
+
+    .phone, .imgphone, .mail, .imgmail, .adress, .imgadress {
+        width: 475px;
+        height: 300px;
+        border-radius: 20px;
+    }
+
+    .espace {
+        height: 70px;
+    }
+
+    .phone1 {
+        width: 475px;
+        height: 80px;
+    }
+
+    .phone .nom {
+        font-size: 30px;
+    }
+
+    .phone .phone1 {
+        font-size: 34px;
+    }
+
+    .imgphone, .imgmail, .imgmail {
+        background-size: cover;
+    }
+
+    .text {
+        font-size: 34px;
+        margin-top: 0px;
+        line-height: 300px;
+    }
+
+    .text2 {
+        font-size: 34px;
+        margin-top: 0px;
+        padding-top: 120px;    
+    }
+}
+
+@media (orientation: landscape) {
+    .page {
+        height: auto;
+    }
+
+    .contact {
+        width: 950px;
+        height: 950px;
+    }
+
+    .ecartement {
+        display: block;
+    }
 }
