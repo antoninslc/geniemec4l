@@ -5,6 +5,21 @@
     background: #fff;
 }
 
+h2 {
+    color: gray;
+	font-size: 50px;
+	font-weight: bold;
+	width: 700px;
+	margin: 0 auto;
+	padding-top: 60px;
+	padding-bottom: 80px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+}
+
 .Louis, .Tom {
     width: 1000px;
     height: 800px;
