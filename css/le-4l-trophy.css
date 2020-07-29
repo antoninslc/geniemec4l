@@ -53,6 +53,10 @@ img {
     color: sandybrown;
 }
 
+#link {
+    text-align: center;
+}
+
 @media (max-width: 1300px) {
     .aptexte {
         width: 90%;

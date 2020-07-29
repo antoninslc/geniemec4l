@@ -8,6 +8,10 @@ html, head, body, .contenu{
 	height: 100%
 }
 
+.noscript {
+	color: red;
+}
+
 body {
 	background: #2f2e2e;
 }

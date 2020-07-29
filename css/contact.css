@@ -1,7 +1,8 @@
 .contact {
     width: 800px;
-    height: auto;
+    height: 80vh;
     margin: 0 auto;
+    padding-bottom: 100px;
 }
 
 .phone {
@@ -146,7 +147,7 @@
     }
 }
 
-@media (orientation: landscape) {
+@media (max-width:1400px) and (orientation: landscape) {
     .page {
         height: auto;
     }

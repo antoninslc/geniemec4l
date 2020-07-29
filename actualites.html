@@ -15,31 +15,45 @@
         <title>Actualités | Génie Méc'4L</title>
         <meta charset="utf-8">	
         <meta name="description" content="Le projet avance et nous publions régulièrement nos avancées ici. Prenez connaissance de nos dernières actualités.">
-		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+        <meta name="keywords" content="Génie Méc'4L, genie mec 4l, 4l trophy, 4L Trophy, Actualités, équipage, Association, Humanitaire">
+		<meta property="og:title" content="Actualités | Génie Méc'4L" />
+		<meta property="og:type" content="Site web" />
+		<meta property="og:url" content="https://geniemec4l.fr/actualites" />
+		<meta property="og:image" content="https://geniemec4l.fr/img/icon.png" />
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/base.css">
 		<link rel="stylesheet" type="text/css" href="css/header.css">
         <link rel="stylesheet" type="text/css" href="css/actualites.css">
         <link rel="icon" type="image/png" href="icon.ico" />
 
-
+        <script type="application/ld+json">
+			[{
+			  "@context": "https://schema.org",
+			  "@type": "BreadcrumbList",
+			  "itemListElement": [{
+				"@type": "ListItem",
+				"position": 1,
+				"name": "Génie Méc'4L",
+				"item": "https://geniemec4l.fr/"
+			  },{
+				"@type": "ListItem",
+				"position": 2,
+				"name": "Actualités",
+				"item": "https://geniemec4l.fr/actualites"
+			  }]
+			}]
+			</script>
     </head>
 
-    <script>
-        function toggle_div( btn, id_div )
-        {
-          btn.innerHTML = (btn.innerHTML == 'Lire la suite')? 'Moins': 'Lire la suite';
-          btn.title = (btn.title == 'Afficher la suite')? 'Masquer la suite' : 'Afficher la suite';
-          document.getElementById( id_div ).style.display = (document.getElementById( id_div ).style.display == 'none')? 'block' : 'none';
-        }
-    </script>
-
     <body>
+        <noscript class="noscript">JavaScript est désactivé sur votre navigateur. Activer le dans les paramètres.</noscript>
         <section class="page">
+        <header>
         <div class="header">
             <div class="container">
                 <div class="header__navbar">
-                    <img class="imgtel" src="ims/icon.png" alt="icon">
+                    <img class="imgtel" src="img/icon.png" alt="icon">
                     <div class="header__navbar-logo">
                         <img class="img" src="img/icon.png" alt="icon">
 						<p class="header__navbar-logo-title" style="font-family: 'Cinzel Decorative', cursive;;">Génie Méc'4L</p>	
@@ -73,6 +87,7 @@
                 </div>	
             </div>
         </div>
+        </header>
         <div class="white"></div>
 
         <h1 class="titre">ACTUALITÉS</h1>
@@ -126,6 +141,7 @@
             </div>
             <div class="actu"></div>
         </div>
+        <footer>
         <div class="bottom">
 			<div class="bottom__logo">
 				<div class="logo">
@@ -141,7 +157,8 @@
 					<a href="https://youtube.com" target="bank"><img class="icon" src="img/YouTube_logo.png" alt=""></a>
 				</div>
 			</div>
-		</div>
+        </div>
+        </footer>
         </section>
         <div class="navigation">
 			<div class="nav__container">
@@ -149,7 +166,8 @@
 				<li><a href="index.html">Accueil</a></li>
 				<li><a href="le-4l-trophy.html">Le 4l Trophy</a></li>
 				<li><a href="l-equipage.html">L'équipage</a></li>
-				<li><a href="notre-projet.html">Notre projet</a></li>
+                <li><a href="notre-projet.html">Notre projet</a></li>
+				<li><a href="actualites.html">Actualités</a></li>
 				<li><a href="comment-nous-soutenir.html">Comment nous soutenir</a></li>
 				<li><a href="ils-nous-soutiennent-deja.html">Ils nous soutiennent déjà</a></li>
 				<li><a href="contact.html">Contact</a></li>

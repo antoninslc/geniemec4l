@@ -312,6 +312,7 @@ a {
 	.header__navbar-logo-title {
 		font-size: 40px;
 		margin-left: 30px;
+		font-family: 'Cinzel Decorative', cursive;
 	}
 
 	.header {
@@ -357,16 +358,16 @@ a {
 @media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : landscape) {
 
 	.navigation {
-		padding-top: 5%;
+		padding-top: 0;
 	}
 
 	.navigation ul li a {
-		padding: 12px;
-		font-size: 16px;
+		padding: 16px;
+		font-size: 18px;
 	}
 
 	.nav__container ul {
-		height: 60%;
+		height: 76vh;
 	}
 
 	.sci {
