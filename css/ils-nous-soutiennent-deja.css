@@ -6,3 +6,15 @@
 .page {
     height: 100%;
 }
+
+p {
+    text-align: center;
+    font-size: 26px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+p a {
+    font-size: 26px;
+    text-decoration: none;
+}

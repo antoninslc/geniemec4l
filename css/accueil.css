@@ -8,12 +8,10 @@ body {
 
 h2 {
 	color: gray;
-	font-size: 50px;
+	font-size: 36px;
 	font-weight: bold;
 	width: 700px;
 	margin: 0 auto;
-	padding-top: 60px;
-	padding-bottom: 80px;
 }
 
 .fond {
@@ -51,6 +49,21 @@ h2 {
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
+}
+
+#nouscontacter {
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.1em;
+	border: rgb(57, 67, 92) 2px solid;
+	background: rgb(67, 79, 105);
+	padding: 5px;
+	border-radius: 10px;
+}
+
+#nouscontacter:hover {
+	background: rgb(57, 67, 92);
 }
 
 .association__img {
@@ -160,6 +173,10 @@ h2 {
 	
 }
 
+.timer {
+	padding-bottom: 50px;
+}
+
 @media only screen and (max-width: 1010px) {
   .titreaccueil {
       margin-top: -150px;
@@ -169,6 +186,10 @@ h2 {
     width: 800px;
     margin: 0 auto;
     color: white;
+  }
+
+  #nouscontacter {
+	  font-size: 1.4em;
   }
 
 }
