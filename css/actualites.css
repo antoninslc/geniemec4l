@@ -37,7 +37,7 @@
     padding-top: 0;
 }
 
-.lastnews__text h4 {
+.lastnews__text h2 {
     color: #2f2e2e;
     font-size: 50px;
     padding: 0;
@@ -79,7 +79,7 @@
     border-radius: 20px;
 }
 
-.actu h4 {
+.actu h2 {
     text-align: left;
     font-size: 28px;
     padding-top: 30px;
@@ -111,5 +111,19 @@
 
     .espacement {
         display: none;
+    }
+
+    .actu {
+        width: 90%;
+        margin-bottom: 50px;
+    }
+
+    .date {
+        font-size: 3em;
+    }
+
+    .actu h2 {
+        line-height: 3em;
+        font-size: 3.2em;
     }
 }

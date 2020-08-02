@@ -298,14 +298,55 @@ h2 {
 	height: 100px;
 }
 
-@media (orientation: portrait), (max-width: 1366px) {
-	.association__img, .association__text {
-		min-height: unset;
-	}
+@media only screen and (max-width: 1366px) {
 
 	.association__text {
 		padding-bottom: 50px;
+		display: block;
+		min-height: 1100px;
 	}
+
+	.association__img {
+		display: none;
+	}
+
+	.association__p, .timer p {
+		font-size: 2em;
+		line-height: 2em;
+		color: #fff;
+	}
+
+	.timer p {
+		font-size: 32px;
+	}
+
+	#membres {
+		line-height: unset;
+		margin-bottom: 50px;
+	}
+
+	#membresh2 {
+		text-align: center;
+	}
+
+	h2 {
+		margin: 0;
+		width: 100%;
+		font-size: 2.6em;
+	}
+
+	.timer h2 {
+		color: gray;
+		font-size: 50px;
+		font-weight: bold;
+		width: 700px;
+		margin: 0 auto;
+		padding-top: 100px;
+		padding-bottom: 80px;
+		line-height: unset;
+		text-align: center;
+	}
+
 }
 
 @media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) { 
@@ -342,7 +383,7 @@ h2 {
 		width: 120px;
 		height: 40px;
 		line-height: 40px;
-		font-size: 26px;
+		font-size: 24px;
 		font-weight: 900;
 		background-color: sandybrown;
 	}

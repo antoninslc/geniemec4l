@@ -230,7 +230,7 @@ a {
 }
 
 .navigation {
-	padding-top: 30%;
+	padding-top: 20%;
 	position: relative;
     position: fixed;
     top: 0;
@@ -356,6 +356,10 @@ a {
 /*media for iPhone 6,7,8 in landscape */
 
 @media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : landscape) {
+
+	.header {
+		position: unset;
+	}
 
 	.navigation {
 		padding-top: 0;

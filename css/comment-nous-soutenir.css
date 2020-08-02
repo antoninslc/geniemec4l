@@ -52,12 +52,8 @@ ul {
 
 @media (orientation: portrait) {
 
-    .page {
-        height: 4100px;
-    }
-
     .texte {
-        width: 900px;
+        width: 90%;
     }
 
     .disposition {

@@ -21,11 +21,12 @@ h1 {
     padding-bottom: 80px;
 }
 
-.h2 {
-    text-align: center;
-    font-size: 30px;
-    font-weight: 800;
+h2 {
+    width: 100%;
+    text-align: left;
+    font-size: 26px;
     padding: 0;
+    color: #000;
 }
 
 h3 {
@@ -49,21 +50,43 @@ h3 {
     padding-top: 30px;
 }
 
-@media only screen and (max-width: 1050px) {
+#budgettiltle {
+    text-align: center;
+}
+
+@media only screen and (max-width: 1400px) {
     .contenu {
         height: auto;
-        width: 900px;
+        width: 90%;
+    }
+
+    .edd {
+        font-size: 48px;
+    }
+
+    h1 {
+        font-size: 3em;
     }
 
     h2 {
-        font-size: 40px;
+        font-size: 3.4em;
+        text-align: left;
+        font-weight: bold 700;
+        margin: 0;
+        padding: 0;
+        line-height: 3.4em;
+        width: 100%;
     }
 
     h3 {
-        font-size: 36px;
+        font-size: 3.4em;
+        text-align: left;
+        font-weight: bold 700;
+        margin: 0;
+        line-height: 3.4em;
     }
 
-    p {
-        font-size: 28px;
+    #budgettiltle {
+        text-align: left;
     }
 }

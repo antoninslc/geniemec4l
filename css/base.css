@@ -1,6 +1,6 @@
 html, head, body, .contenu{
 	width: 100%;
-	font-family: 'Quicksand';
+	font-family: 'Hind Madurai', sans-serif;
 	text-align: center;
 	align-items: center;
 	padding: 0;
@@ -51,6 +51,17 @@ h1 {
 h2 {
     text-align: center;
     font-size: 24px;
+}
+
+.titre {
+	text-align: center;
+	color: gray;
+	font-size: 50px;
+	font-weight: bold;
+	width: 700px;
+	margin: 0 auto;
+	padding-top: 60px;
+	padding-bottom: 80px;
 }
 
 .page {
@@ -132,6 +143,40 @@ p {
 
 .page {
 	background: #fff;
+}
+
+@media only screen and (max-width: 1400px){
+
+	.page {
+		height: auto;
+	}
+
+	h2 {
+        font-size: 3.4em;
+        text-align: left;
+        font-weight: bold 700;
+        margin: 0;
+        line-height: 3.4em;
+    }
+
+    h3 {
+        font-size: 3.2em;
+        font-weight: 1200;
+    }
+
+    p {
+        margin: 0;
+        font-size: 3em;
+        text-align: left;
+        font-weight: lighter 300;
+        line-height: 1.6em;
+        color: #000;
+    }
+
+    .edd {
+        font-size: 48px;
+        color: rgb(42, 207, 207);
+    }
 }
 
 

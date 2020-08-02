@@ -94,6 +94,7 @@ img {
 @media (max-width: 1300px) {
     .aptexte {
         width: 90%;
+        padding-top: 0;
     }
 
     img {
@@ -105,12 +106,26 @@ img {
         height: 500px;
     }
 
-    #links {
-        font-size: 28px;
+    p {
+        color: rgb(231, 221, 221);
     }
 
-    h3 {
-        font-size: 26px;
+    .edd {
+        font-size: 48px;
+        color: rgb(42, 207, 207);
+    }
+
+    .trophy2021 {
+        flex-direction: column;
+    }
+
+    .trophy2021 .texte{
+        width: 100%;
+    }
+
+    .trophy2021 img {
+        width: 100%;
+        padding-top: 20px;
     }
 }
 
