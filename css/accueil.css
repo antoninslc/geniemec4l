@@ -349,6 +349,13 @@ h2 {
 
 }
 
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : landscape) {
+
+	.titreaccueil {
+		padding-top: 200px;
+	}
+}
+
 @media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) { 
 	.numbers {
 		width: 75%;

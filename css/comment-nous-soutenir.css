@@ -44,9 +44,9 @@ ul {
 }
 
 
-@media only screen and (max-width: 1010px) {
+@media only screen and (max-width: 1400px) {
     .lien {
-        font-size: 28px;
+        font-size: 32px;
     }
 }
 
@@ -78,7 +78,7 @@ ul {
     }
 
     .txtsponsors, .lien, .sponsors h2 {
-        font-size: 10px;
+        font-size: 32px;
     }
 
     .sponsors h2 {

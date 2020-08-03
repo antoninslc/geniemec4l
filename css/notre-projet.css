@@ -55,13 +55,14 @@ h3 {
 }
 
 @media only screen and (max-width: 1400px) {
+
     .contenu {
         height: auto;
         width: 90%;
     }
 
     .edd {
-        font-size: 48px;
+        font-size: 32px;
     }
 
     h1 {
@@ -69,12 +70,12 @@ h3 {
     }
 
     h2 {
-        font-size: 3.4em;
+        font-size: 3em;
         text-align: left;
         font-weight: bold 700;
         margin: 0;
         padding: 0;
-        line-height: 3.4em;
+        line-height: 3em;
         width: 100%;
     }
 
