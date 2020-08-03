@@ -1,163 +1,166 @@
-.contact {
-    width: 800px;
-    height: 80vh;
-    margin: 0 auto;
-    padding-bottom: 100px;
-}
-
-.phone {
-    width: 400px;
-    height: 250px;
-    float: left;
-}
-
-.espace {
-    height: 65px;
-}
-
-.phone1 {
-    width: 400px;
-    height: 60px;
-    line-height: 60px;
-    text-decoration: none;
-    
-    color: black;
-}
-
-.imgphone {
-    width: 400px;
-    height: 250px;
-    background: cover;
-    float: right;
-    background-image: url(img/contact1.jpg);
-}
-
-.mail {
-    width: 400px;
-    height: 250px;
-    float: right;
-}
-
-.text {
-    margin-top: 0px;
-    line-height: 250px;
-    text-decoration: none;
-    color: black;
-    font-style: normal;
-}
-
-.imgmail {
-    width: 400px;
-    height: 250px;
-    float: left;
-    background-image: url(img/contact2.jpg);
-}
-
-.adress {
-    width: 400px;
-    height: 250px;
-    float: left;
-}
-
-.text2 {
-    margin-top: 0px;
-    padding-top: 90px;
-    text-decoration: none;
+h2 {
     text-align: center;
+    font-size: 32px;
+    padding: 0;
+    padding-bottom: 40px;
+    color: gray;
+    font-weight: 100;
+}
+
+h3 {
+    font-size: 24px;
+    text-align: left;
+    color: #fff;
+}
+
+.addres p {
+    font-size: 20px;
+    line-height: 20px;
+    color: #fff;
+    font-weight: lighter;
+}
+
+.contact {
+    margin: 0 auto;
+    width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home {
+    display: flex;
+    margin: 12px 0;
 
 }
 
-.adress a {
-    text-decoration: none; 
-    font-style: normal; 
-    color: black;
+.home p {
+    padding-left: 10px;
+    margin: 0;
 }
 
-.imgadress {
+.addres {
+    width: 320px;
+    height: 660px;
+    padding: 20px 40px;
+    background: #2f2e2e;
+}
+
+.coordonnees {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.coordonnees img {
+    width: 40px;
+    height: 40px;
+}
+
+.coordonnees p {
+    width: 270px;
+    text-align:left;
+    height: 40px;
+    vertical-align:middle;
+    line-height: 40px;
+    padding-left: 10px;
+    margin: 0;
+}
+
+.formcontainer {
+    width: 820px;
+    height: 660px;
+    padding: 20px 40px;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.formcontent {
     width: 400px;
-    height: 250px;
-    float: right;
-    background-image: url(img/contact3.jpg);
+    height: 100px;
 }
 
-.nom {
-    color: gray; 
-    font-size: 22px;
+.formsubject {
+    width: 820px;
+    height: 100px;
 }
 
-.phone, .imgphone, .mail, .imgmail, .adress, .imgadress {
-    border-radius: 20px;
+.formmessage {
+    width: 820px;
+    height: 200px;
 }
 
-.text, .text2, .phone .phone1 {
-    font-size: 28px;
+label {
+    font-size: 18px;
+    height: 60px;
+    color: gray;
 }
 
-@media (orientation: portrait), (max-width: 1366px) {
-    .page {
-        height: 100%;
-    }
+#input {
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    border: gray 1px solid;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
-    .ecartement {
-        display: none;
-    }
+input:focus {
+    outline: none;
+}
 
+#subjectinput {
+    width: 760px;
+    height: 40px;
+    border-radius: 5px;
+    border: gray 1px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+#messageinput {
+    width: 760px;
+    border-radius: 5px;
+    border: gray 1px solid;
+    padding: 10px;
+    resize: none;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.send {
+    width: 120px;
+    height: 40px;
+    padding: 0;
+    font-size: 12px;
+    background-color: sandybrown;
+    border: 1px sandybrown solid;
+    border-radius: 5px;
+}
+
+.send:hover {
+    background: unset;
+}
+
+.valid
+{
+   background-image: url('img/phone.png');
+   background-repeat: no-repeat;
+   background-position : 15px 10px;
+   text-align:center;
+   color: #390;
+   font-weight:bold;
+}
+
+@media only screen and (max-width: 1400px) {
     .contact {
-        width: 950px;
-        height: auto;
-    }
-
-    .phone, .imgphone, .mail, .imgmail, .adress, .imgadress {
-        width: 475px;
-        height: 300px;
-        border-radius: 20px;
-    }
-
-    .espace {
-        height: 70px;
-    }
-
-    .phone1 {
-        width: 475px;
-        height: 80px;
-    }
-
-    .phone .nom {
-        font-size: 30px;
-    }
-
-    .phone .phone1 {
-        font-size: 34px;
-    }
-
-    .imgphone, .imgmail, .imgmail {
-        background-size: cover;
-    }
-
-    .text {
-        font-size: 34px;
-        margin-top: 0px;
-        line-height: 300px;
-    }
-
-    .text2 {
-        font-size: 34px;
-        margin-top: 0px;
-        padding-top: 120px;    
-    }
-}
-
-@media (max-width:1400px) and (orientation: landscape) {
-    .page {
-        height: auto;
-    }
-
-    .contact {
-        width: 950px;
-        height: 950px;
-    }
-
-    .ecartement {
-        display: block;
+        flex-direction: column;
     }
 }
