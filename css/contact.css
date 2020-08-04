@@ -198,8 +198,16 @@ textarea:focus {
         line-height: 30px;
     }
 
+    .formcontainer {
+        width: 90%;
+    }
+
     .form {
         padding-top: 100px;
         width: 100%;
+    }
+
+    #subjectinput, #messageinput {
+        width: 763.8px;
     }
 }

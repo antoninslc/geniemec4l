@@ -133,40 +133,40 @@
                     </div>
                 </div>
                 <div class="formcontainer">
-                    <form class="form" name="contact" method="post" action="contact.html" autocomplete="on" data-netlify="true">
+                    <form class="form" name="contact" method="post" action="contact/success.html" autocomplete="on" data-netlify="true">
                         <div class="formcontent">
                             <label for="firstname">Votre nom :<br>
-                            <input type="text" name="userfirstname" id="input">
+                            <input type="text" name="nom" id="input" required>
                             </label>
                         </div>
                         <div class="formcontent">
                             <label for="name">Votre prénom :<br>
-                            <input type="text" name="username" id="input">
+                            <input type="text" name="prénom" id="input" required>
                             </label>
                         </div>
                         <div class="formcontent">
                             <label for="emailname">Votre mail :<br>
-                                <input type="text" name="email" id="input">
+                                <input type="email" name="email" id="input" required>
                             </label>
                         </div>
                         <div class="formcontent">
                             <label for="phonenumber">Votre numéro de téléphone :<br>
-                                <input type="text" name="phone" id="input">
+                                <input type="tel" name="tel" id="input">
                             </label>
                         </div>
                         <div class="formcontent">
                             <label for="societyname">Votre société :<br>
-                                <input type="text" name="society" id="input">
+                                <input type="text" name="société" id="input">
                             </label>
                         </div>
                         <div class="formsubject">
                             <label for="subjectcontent">Sujet :<br>
-                                <input type="text" name="subject" id="subjectinput">
+                                <input type="text" name="sujet" id="subjectinput" required>
                             </label>
                         </div>
                         <div class="formmessage">
                             <label for="messagecontent">Votre message :<br>
-                                <textarea type="text" name="message" id="messageinput" rows="6"></textarea>
+                                <textarea type="text" name="message" id="messageinput" rows="6" required></textarea>
                             </label>
                         </div>
                         <div class="file">

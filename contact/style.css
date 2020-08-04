@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background: #2f2e2e;
+	font-family: 'Hind Madurai', sans-serif;
+}
+
+.cart {
+    width: 500px;
+    height: 300px;
+    background: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 81px 26px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 81px 26px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 81px 26px rgba(0,0,0,0.75);
+}
+
+.cart div {
+    display: flex;
+    height: 40px;
+    margin-bottom: 110px;
+}
+
+.cart h2 {
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+}
+
+@media only screen and (orientation: portrait) {
+    .cart {
+        width: 80%;
+        height: 20%;
+        padding: 10px 20px;
+    }
+
+    .cart div {
+        margin-bottom: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin: 10px 0;
+    }
+
+    img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .cart h2 {
+        font-size: 18px;
+        line-height: 30px;
+        height: 30px;
+    }
+}
