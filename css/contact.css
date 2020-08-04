@@ -20,27 +20,27 @@ h3 {
     font-weight: lighter;
 }
 
+.addres a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
 .contact {
     margin: 0 auto;
     width: 1300px;
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 200px;
 }
 
-.home {
-    display: flex;
-    margin: 12px 0;
-
-}
-
-.home p {
-    padding-left: 10px;
-    margin: 0;
+#home {
+    line-height: 20px;
 }
 
 .addres {
     width: 320px;
-    height: 660px;
+    height: 760px;
     padding: 20px 40px;
     background: #2f2e2e;
 }
@@ -48,11 +48,13 @@ h3 {
 .coordonnees {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 
 .coordonnees img {
     width: 40px;
     height: 40px;
+    margin-bottom: 20px;
 }
 
 .coordonnees p {
@@ -63,11 +65,12 @@ h3 {
     line-height: 40px;
     padding-left: 10px;
     margin: 0;
+    margin-bottom: 20px;
 }
 
 .formcontainer {
     width: 820px;
-    height: 660px;
+    height: 760px;
     padding: 20px 40px;
 }
 
@@ -79,7 +82,7 @@ h3 {
 }
 
 .formcontent {
-    width: 400px;
+    width: 375px;
     height: 100px;
 }
 
@@ -114,7 +117,7 @@ input:focus {
 }
 
 #subjectinput {
-    width: 760px;
+    width: 800px;
     height: 40px;
     border-radius: 5px;
     border: gray 1px solid;
@@ -124,7 +127,7 @@ input:focus {
 }
 
 #messageinput {
-    width: 760px;
+    width: 800px;
     border-radius: 5px;
     border: gray 1px solid;
     padding: 10px;
@@ -133,6 +136,12 @@ input:focus {
 
 textarea:focus {
     outline: none;
+}
+
+.file {
+    width: 100%;
+    height: 100px;
+    text-align: left;
 }
 
 .send {
@@ -149,18 +158,48 @@ textarea:focus {
     background: unset;
 }
 
-.valid
-{
-   background-image: url('img/phone.png');
-   background-repeat: no-repeat;
-   background-position : 15px 10px;
-   text-align:center;
-   color: #390;
-   font-weight:bold;
-}
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1300px) {
     .contact {
         flex-direction: column;
+        width: 90%;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+
+    .addres p {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .addres {
+        width: 90%;
+        height: 500px;
+    }
+
+    .coordonnees img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .coordonnees p {
+        width: 300px;
+        height: 60px;
+        line-height: 60px;
+    }
+
+    .coordonnees a {
+        font-size: 24px;
+    }
+
+    #home {
+        line-height: 30px;
+    }
+
+    .form {
+        padding-top: 100px;
+        width: 100%;
     }
 }

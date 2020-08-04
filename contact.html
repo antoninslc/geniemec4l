@@ -113,25 +113,27 @@
         </header>
         <div class="white"></div>
             <h1>Contact</h1>
-            <h2>Vous souhaitez devenir partenaire de notre projet ?</h2>
+            <h2>Vous souhaitez devenir partenaire ?</h2>
             <div class="contact">
                 <div class="addres">
                     <h3>Nous contacter</h3>
                     <p>Vous souhaitez nous contacter ? Vous trouverez ci-dessous nous coordonnées ainsi que nous réseaux sociaux.</p>
                     <br><br>
-                    <div class="home">
-                        <img width="40px" height="40px" src="img/home.png" alt="">
-                        <p>78 route de Narbonne <br> 31400, Toulouse</p>
+                    <div class="coordonnees">
+                        <img src="img/home.png" alt="">
+                        <p id="home"><a href="https://www.google.fr/maps/place/78+Route+de+Narbonne,+31400+Toulouse/@43.5676577,1.4516952,16z/data=!4m5!3m4!1s0x12aebc148f11950d:0x868dcb6bf4926baf!8m2!3d43.5678754!4d1.4577785" target="bank">78 route de Narbonne <br> 31400, Toulouse</a></p>
+                        <img src="img/phone.png" alt="">
+                        <p><a href="tel:0768463807">07 68 46 38 07</a></p>
+                        <img src="img/mail.png" alt="">
+                        <p><a href="mailto:geniemec4l@hotmail.com">geniemec4l@hotmail.com</a></p>
                     </div>
                     <div class="coordonnees">
-                        <img src="img/phone.png" alt="">
-                        <p>07 68 46 38 07</p>
-                        <img src="img/mail.png" alt="">
-                        <p>geniemac4l@hotmail.com</p>
+                        <img src="img/instagram.png" alt="">
+                        <p><a href="instagram.com/geniemec4l" target="bank">geniemec4l</a></p>
                     </div>
                 </div>
                 <div class="formcontainer">
-                    <form class="form" name="contact" method="post" autocomplete="on" data-netlify="true">
+                    <form class="form" name="contact" method="post" action="contact.html" autocomplete="on" data-netlify="true">
                         <div class="formcontent">
                             <label for="firstname">Votre nom :<br>
                             <input type="text" name="userfirstname" id="input">
@@ -165,6 +167,11 @@
                         <div class="formmessage">
                             <label for="messagecontent">Votre message :<br>
                                 <textarea type="text" name="message" id="messageinput" rows="6"></textarea>
+                            </label>
+                        </div>
+                        <div class="file">
+                            <label for="file">
+                                <input type="file">
                             </label>
                         </div>
                         <div class="submit">

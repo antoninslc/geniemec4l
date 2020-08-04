@@ -110,6 +110,10 @@ img {
         color: rgb(231, 221, 221);
     }
 
+    h2 {
+        font-size: 48px;
+    }
+
     h3 {
         font-size: 2.4em;
     }
