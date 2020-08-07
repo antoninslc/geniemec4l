@@ -8,7 +8,7 @@ $('.toggle').click(function(e) {
 	$('.navigation').toggleClass('is-open');
 })
 
-$('#navigation__toggle').click(function(e) {
+$('.toggle').click(function(e) {
 	e.preventDefault();
-	$('body').toggleClass('is-open-off');
+	$('.header__navbar').toggleClass('is-open');
 })
