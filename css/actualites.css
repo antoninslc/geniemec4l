@@ -7,7 +7,6 @@
 .content {
     width: 100%;
     height: auto;
-    background: #fff;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -55,6 +54,7 @@
 }
 
 .actu {
+    margin: 20px 0;
     padding: 40px;
     width: 700px;
     height: auto;

@@ -102,6 +102,10 @@ label {
     color: gray;
 }
 
+label span {
+    color: red;
+}
+
 #input {
     width: 350px;
     height: 40px;
@@ -156,6 +160,12 @@ textarea:focus {
 
 .send:hover {
     background: unset;
+}
+
+.required {
+    color: red;
+    font-size: 14px;
+    text-align: right;
 }
 
 
