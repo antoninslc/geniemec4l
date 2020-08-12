@@ -57,15 +57,11 @@ iframe {
 .edd {
     text-decoration: none; 
     font-size: 22px;
-    color: white;
+    color: rgb(42, 207, 207);
 }
 
 img {
     width: 60%;
-}
-
-.edd:hover {
-    color: sandybrown;
 }
 
 #link {
@@ -121,7 +117,6 @@ img {
 
     .edd {
         font-size: 32px;
-        color: rgb(42, 207, 207);
     }
 
     .trophy2021 {

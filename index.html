@@ -28,23 +28,26 @@
 		content="Génie Méc'4L, genie mec 4l, 4l trophy, 4L Trophy, Équipage, équipage, Association, Humanitaire">
 
 	<!--OpenGraph-->
+	<meta property="og:locale" content="fr_FR" />
 	<meta property="og:title" content="Génie Méc'4L | Suivez nous dans l'aventure du 4L Trophy 2021 !" />
-	<meta property="og:type" content="Site web" />
+	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://geniemec4l.fr/" />
-	<meta property="og:image" content="https://geniemec4l.fr/icon.png" />
+	<meta property="og:image" content="https://geniemec4l.fr/css/img/index.jpg" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="600" />
 	<meta property="og:site_name" content="Génie Méc'4L">
 	<meta property="og:description"
 		content="Bienvenue sur le site de l'association Génie Méc'4L ! Vous trouverez ici toutes les informations sur notre participation au 4L Trophy.">
 
 	<!--Twitter cards-->
-	<meta name=”twitter:card” content="summary">
+	<meta name=”twitter:card” content="summary_large_image">
 	<meta name=”twitter:site” content="@geniemec4l">
-	<meta property="twitter:image" content="https://geniemec4l.fr/icon.png">
+	<meta property="twitter:image" content="https://geniemec4l.fr/css/img/index.jpg">
 	<meta property="twitter:title" content="Génie Méc'4L | Suivez nous dans l'aventure du 4L Trophy 2021 !">
 	<meta property="twitter:description"
 		content="Bienvenue sur le site de l'association Génie Méc'4L ! Vous trouverez ici toutes les informations sur notre participation au 4L Trophy.">
 
-	<!--Links-->
+	<!--Link-->
 	<link rel="canonical" href="https://geniemec4l.fr">
 	<link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;600;700&display=swap"
 		rel="stylesheet">
@@ -134,8 +137,8 @@
 		<!-- home background -->
 		<div class="fond">
 			<div class="wrapper">
-				<div class="content">
-					<h1 class="titreaccueil"> <span>Génie Méc'4L</span> <br> Suivez nous dans l'aventure du 4L Trophy 2021 !
+				<div class="content reveal">
+					<h1 class="titreaccueil"> <span class="span reveal-1">Génie Méc'4L</span> <br> <span class="reveal-5">Suivez nous dans l'aventure du 4L Trophy 2021 !</span>
 					</h1>
 				</div>
 			</div>
@@ -233,12 +236,14 @@
 		</div>
 
 		<!-- pied de page -->
+		<section class="pieddepage__section">
 		<div class="pieddepage reveal">
 			<img class="imgaccueil reveal-1" src="img/Logo-IUT TOULOUSE-GMP.jpg" alt="Logo IUT Toulouse GMP | Génie Méc'4L"
 				loading="lazy">
 			<img class="imgaccueil reveal-2" src="img/Logo-MFJA.jpg" alt="Logo MFJA | Génie Méc'4L" loading="lazy">
 			<img class="imgaccueil reveal-3" src="img/logoUPS_2013.jpg" alt="Logo UPS | Génie Méc'4L" loading="lazy">
 		</div>
+		</section>
 
 		<!-- footer -->
 		<footer>
@@ -292,6 +297,14 @@
 			</script>
 			<script type="text/javascript" src="timer.js"></script>
 			<script src="js/transition.js"></script>
+						
+			<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+			<script type="text/javascript">
+			$(window).load(function() {
+			$(".header").fadeOut("1000");
+			})
+			</script>
+						
 </body>
 
 </html>

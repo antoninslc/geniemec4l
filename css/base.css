@@ -98,14 +98,12 @@ p {
 
 .edd {
     text-decoration: none; 
-    font-size: 20px;
+	font-size: 22px;
+	color: rgb(42, 207, 207);
 }
 
-@media only screen and (max-width: 1010px){
-	
-	.edd {
-		font-size: 26px;
-	}
+.edd:hover {
+    color: rgb(56, 150, 150);
 }
 
 .ecartement {
@@ -172,7 +170,8 @@ p {
     .edd {
         font-size: 32px;
         color: rgb(42, 207, 207);
-    }
+	}
+
 }
 
 /* reveal*/
@@ -195,4 +194,13 @@ p {
 .reveal-visible .reveal-3 {
 	transition-delay: .3s;
 }
+
+.reveal-visible .reveal-4 {
+	transition-delay: .4s;
+}
+
+.reveal-visible .reveal-5 {
+	transition-delay: .5s;
+}
+
 

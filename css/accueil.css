@@ -181,7 +181,7 @@ h3 {
 	
 }
 
-.titreaccueil span {
+.titreaccueil .span {
 	font-size: 60px;
 	padding: 40px;
 	color: #fff;
@@ -267,19 +267,24 @@ h3 {
 	background-color: sandybrown;
 }
 
+.pieddepage__section {
+	width: 100%;
+	background: #fff;
+}
 
 .pieddepage {
-  	background: #fff;
+  	background: transparent;
 	height: auto;
-	width: auto;
-  	padding: 50px;
+	margin: 0 auto;
+	width: 800px;
+	padding: 50px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
 }
 
 .imgaccueil {
-	padding-left: 30px;
-	padding-right: 30px;
-	padding-bottom: 0;
 	height: 100px;
+	margin: 0 auto;
 }
 
 @media only screen and (max-width: 1366px) {

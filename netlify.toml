@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "https://geniemec4l.netlify.app"
+  from = "https://geniemec4l.netlify.app/"
   to = "https://geniemec4l.fr"
   status = 301
   force = true
