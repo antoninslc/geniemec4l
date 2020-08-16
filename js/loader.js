@@ -1,3 +1,3 @@
 $(window).load(function() {
-    $('.header').fadeOut("1000");
+    $('.loader').fadeOut("1000");
     })

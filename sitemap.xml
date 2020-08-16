@@ -7,13 +7,13 @@
 
 <url>
   <loc>https://geniemec4l.fr/</loc>
-  <lastmod>2020-07-28T23:55:00+00:00</lastmod>
+  <lastmod>2020-08-12T23:55:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://geniemec4l.fr/le-4l-trophy</loc>
-  <lastmod>2020-07-28T23:55:00+00:00</lastmod>
+  <lastmod>2020-08-12T23:55:00+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>1.00</priority>
 </url>
@@ -42,23 +42,10 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://geniemec4l.fr/ils-nous-soutiennent-deja</loc>
-  <lastmod>2020-07-28T23:55:00+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.50</priority>
-</url>
-<url>
   <loc>https://geniemec4l.fr/contact</loc>
   <lastmod>2020-07-28T23:55:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://geniemec4l.fr/contact/success</loc>
-  <lastmod>2020-07-28T23:55:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.10</priority>
-</url>
-
 
 </urlset>

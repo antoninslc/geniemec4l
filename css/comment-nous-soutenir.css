@@ -5,7 +5,7 @@
 }
 
 .texte {
-    width: 1000px;
+    width: 60%;
     height: auto;
     margin: 0 auto;
     text-align: justify;
@@ -48,9 +48,6 @@ ul {
     .lien {
         font-size: 32px;
     }
-}
-
-@media (orientation: portrait) {
 
     .texte {
         width: 90%;
