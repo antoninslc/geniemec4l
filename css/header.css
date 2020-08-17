@@ -309,8 +309,7 @@ a {
 }
 
 
-@media (orientation: portrait),
-(max-width: 1366px) {
+@media only screen and (max-width: 1366px) {
 
 	.white {
 		height: 115px;

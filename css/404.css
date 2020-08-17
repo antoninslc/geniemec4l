@@ -1,0 +1,72 @@
+body {
+    background: #fff;
+}
+
+.contenu {
+    height: 100vh;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.error {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+h1 {
+    width: 600px;
+    height: 600px;
+    line-height: 600px;
+    margin: 0;
+    padding: 0;
+    font-size: 10em;
+    color: rgb(57, 67, 92);
+}
+
+.error_text {
+    width: 600px;
+    height: 460px; 
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    width: 600px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    margin-top: 220px;
+    color: #2e2f2f;
+    text-align: left;
+    font-size: 3em;
+}
+
+.error_text a {
+    width: 200px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+	border: rgb(57, 67, 92) 2px solid;
+	background: rgb(67, 79, 105);
+	border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 20px 0;
+}
+
+.error_text a:hover {
+	background: rgb(57, 67, 92);
+}
+
+.icon {
+    height: unset;
+}
+
+@media only screen and (max-width: 1400px) {
+    .bottom {
+        display: none;
+    }
+}
