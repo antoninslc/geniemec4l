@@ -69,4 +69,30 @@ h2 {
     .bottom {
         display: none;
     }
+
+    .error {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contenu {
+        width: 100%;
+    }
+
+    h1, .error_text, h2 {
+        width: 100%;
+    }
+
+    h2 {
+        text-align: center;
+        margin: 0;
+    }
+
+    .error_text a {
+        margin: 0 auto;
+        width: 300px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 2em;
+    }
 }
