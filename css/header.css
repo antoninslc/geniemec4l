@@ -7,7 +7,7 @@ body {
 	width: 100%;
 	position: fixed;
 	top: 0;
-	background-color: rgba(47, 46, 46, 0.8);
+	background: rgba(47, 46, 46, 0.8);
 	display: flex;
 	margin: 0px;
 	padding: 0px;
@@ -63,14 +63,14 @@ nav ul::after {
 }
 
 nav ul li a {
-	padding: 20px 22px;
+	padding: 29px 22px;
 	font-weight: 500;
 	transition: .2s;
 
 }
 
 nav ul li:hover a {
-	padding: 18px 22px 20px 22px;
+	padding: 29px 22px;
 }
 
 
@@ -99,8 +99,9 @@ nav a {
 
 #select {
 	color: sandybrown;
-	border-top: 2px solid sandybrown;
-	padding: 18px 30px 20px 30px;
+	border-top: 1px solid sandybrown;
+	padding: 18px 22px 30px 22px;
+	margin-top: 10px;
 }
 
 .soutenir {
@@ -126,6 +127,10 @@ nav a {
 	border-bottom: 1px solid #505050;
 }
 
+.NousSoutenir li:last-child {
+	border-bottom: none;
+}
+
 .NousSoutenir li a {
 	padding: 0;
 	font-size: 16px;
@@ -137,7 +142,8 @@ nav a {
 }
 
 .menu-NousSoutenir .NousSoutenir {
-	background-color: #2F2E2E;
+	background: rgba(47, 46, 46, 0.8);
+
 }
 
 .NousSoutenir li:hover a {
