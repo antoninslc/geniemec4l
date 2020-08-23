@@ -145,8 +145,12 @@ textarea:focus {
 
 .file {
     width: 100%;
-    height: 100px;
+    height: 80px;
     text-align: left;
+}
+
+#fileinput {
+    font-size: 14px;
 }
 
 .send {
@@ -169,6 +173,12 @@ textarea:focus {
     text-align: right;
 }
 
+    input {font-size: 16px;}
+    textarea {
+        font-size: 18px;
+        font-family: 'Hind Madurai', sans-serif;
+        line-height: 18px;
+    }
 
 @media only screen and (max-width: 1300px) {
     .contact {
@@ -220,5 +230,15 @@ textarea:focus {
 
     #subjectinput, #messageinput {
         width: 763.8px;
+    }
+
+    #fileinput {
+        margin-top: 20px;
+    }
+
+    input {font-size: 24px;}
+    textarea {
+        font-size: 24px;
+        line-height: 24px;
     }
 }
