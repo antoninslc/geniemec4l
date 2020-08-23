@@ -44,7 +44,40 @@ ul {
 }
 
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1400px) {
+
+    h1 {
+		padding-top: 100px;
+	}
+
+	h2 {
+        font-size: 3em;
+        text-align: left;
+        font-weight: 700;
+        margin: 0;
+        line-height: 3em;
+    }
+
+    h3 {
+        font-size: 3.2em;
+        font-weight: 1200;
+    }
+
+    p {
+        margin: 0;
+        font-size: 2em;
+        text-align: left;
+        font-weight: lighter;
+        line-height: 1.6em;
+        color: #000;
+    }
+
+    .edd {
+        font-size: 32px;
+        color: rgb(42, 207, 207);
+	}
+
+
     .lien {
         font-size: 32px;
     }

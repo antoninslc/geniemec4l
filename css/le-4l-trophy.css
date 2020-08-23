@@ -7,6 +7,10 @@ h1 span {
     color: gray;
 }
 
+p {
+    color: rgb(231, 221, 221);
+}
+
 h3 {
     font-weight: bold;
     font-size: 24px;
@@ -94,9 +98,31 @@ img {
         height: 500px;
     }
 
-    p {
-        color: rgb(231, 221, 221);
+    h1 {
+		padding-top: 100px;
+	}
+
+	h2 {
+        font-size: 3em;
+        text-align: left;
+        font-weight: 700;
+        margin: 0;
+        line-height: 3em;
     }
+
+    p {
+        margin: 0;
+        font-size: 2em;
+        text-align: left;
+        font-weight: lighter;
+        line-height: 1.6em;
+        color: #fff;
+    }
+
+    .edd {
+        font-size: 32px;
+        color: rgb(42, 207, 207);
+	}
 
     h3 {
         font-size: 2.4em;

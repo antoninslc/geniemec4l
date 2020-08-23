@@ -90,16 +90,6 @@ p {
 	text-align: justify;
 }
 
-@media only screen and (max-width: 1010px) {
-    p {
-        font-size: 28px;
-	}
-
-	h1 {
-		padding-top: 100px;
-	}
-}
-
 .edd {
     text-decoration: none; 
 	font-size: 22px;
@@ -151,6 +141,10 @@ p {
 
 	.page {
 		height: auto;
+	}
+
+	h1 {
+		padding-top: 100px;
 	}
 
 	h2 {
