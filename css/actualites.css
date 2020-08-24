@@ -63,18 +63,7 @@
     border-radius: 20px;
 }
 
-/*.actu:hover {
-    width: 730px;
-    transition: all 0.5s ease-in-out;
-}
-
-.actu:hover p {
-    padding-right: 15px;
-    padding-left: 15px;
-    transition: padding 0.5s ease-in-out;
-}*/
-
-.actu img{
+.actu img {
     width: 100%;
     border-radius: 20px;
 }

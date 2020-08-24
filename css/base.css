@@ -134,28 +134,7 @@ p {
 	background: #fff;
 }
 
-@media (orientation: portrait) {
-	h1 {
-		text-align: center;
-		color: gray;
-		font-size: 50px;
-		font-weight: bold;
-		width: 700px;
-		margin: 0 auto;
-		padding-top: 100px;
-		padding-bottom: 80px;
-	}
-
-	h2 {
-        font-size: 3em;
-        text-align: left;
-        font-weight: 700;
-        margin: 0;
-        line-height: 3em;
-    }
-}
-
-@media (max-width: 1100px){
+@media (orientation:portrait){
 	
 	.white {
 		height: 120px;

@@ -4,7 +4,7 @@ h2 {
     padding: 0;
     padding-bottom: 40px;
     color: gray;
-    font-weight: 100;
+    font-weight: bold;
     margin-top: 0;
 }
 
@@ -184,17 +184,6 @@ textarea:focus {
     .contact {
         flex-direction: column;
         width: 90%;
-    }
-    
-    h1 {
-        text-align: center;
-        color: gray;
-        font-size: 50px;
-        font-weight: bold;
-        width: 700px;
-        margin: 0 auto;
-        padding-top: 60px;
-        padding-bottom: 80px;
     }
 
     h3 {
