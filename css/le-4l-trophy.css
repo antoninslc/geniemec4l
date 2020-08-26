@@ -98,14 +98,7 @@ img {
         height: 500px;
     }
 
-    p {
-        margin: 0;
-        font-size: 2em;
-        text-align: left;
-        font-weight: lighter;
-        line-height: 1.6em;
-        color: #fff;
-    }
+    p {color: #fff;}
 
     .edd {
         font-size: 32px;

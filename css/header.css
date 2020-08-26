@@ -252,7 +252,7 @@ a {
 
 .navigation {
 	margin-top: 120px;
-	padding-top: 20%;
+	padding-top: 15%;
 	position: relative;
 	position: fixed;
 	top: 0;
@@ -320,7 +320,9 @@ a {
 }
 
 
-@media only screen and (max-width: 1366px) {
+@media only screen 
+and (orientation : portrait), (max-width : 1200px)
+{
 
 	.header__navbar-toggle {
 		display: flex;
@@ -329,7 +331,6 @@ a {
 
 	.header__navbar-logo-title {
 		font-size: 40px;
-		margin-left: 30px;
 		font-family: 'Cinzel Decorative', cursive;
 	}
 
@@ -371,25 +372,41 @@ a {
 	}
 }
 
+@media only screen
+and (orientation: landscape)
+and (max-width : 1200px) {
+
+	.navigation {margin-top: 80px;}
+
+	.header {height: 80px;}
+
+	.imgtel {width: 60px; height: 60px;}
+
+	.toggle {width: 50px;}
+
+	.header__navbar-logo {padding: 0;}
+
+	.header__navbar-logo-title {font-size: 30px; padding: 0; width: auto;}
+}
+
 /*media for iPhone 6,7,8 in landscape */
 
-@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : landscape) {
-
-	.white {
-		display: none;
-	}
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : landscape) {
 
 	.navigation {
 		padding-top: 0;
 	}
 
 	.navigation ul li a {
-		padding: 16px;
-		font-size: 18px;
+		padding: 13px;
+		font-size: 20px;
 	}
 
 	.nav__container ul {
-		height: 76vh;
+		height: 100vh;
 	}
 
 	.sci {
@@ -435,19 +452,66 @@ a {
 	}
 }
 
+/*media for iPhone X in landscape*/
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : landscape) { 
+	
+	.navigation {
+		padding-top: unset;
+	}
+
+	.navigation ul li a {
+		padding: 6px;
+		font-size: 16px;
+	}
+
+}
+
 /*media for iPad in portrait */
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
 	.navigation {
-		padding-top: 75px;
+		padding-top: 0;
+	}
+
+	.navigation ul li a {
+		padding: 16px;
+		font-size: 24px;
+	}
+
+	.header__navbar-logo-title {
+		font-size: 30px;
+		margin-left: 90px;
+	}
+
+	.imgtel {
+		width: 60px;
+		height: 60px;
+	}
+
+	.sci {
+		padding-top: 0;
+	}
+
+	.sci a img {
+		width: 60px;
+		height: 60px;
+		padding: 14px;
 	}
 }
 
 /*media for iPad in landscape */
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+@media only screen 
+and (min-device-width : 900px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
 	.navigation {
-		padding-top: 80px;
+		padding-top: 0;
 	}
 
 	.navigation ul li a {

@@ -134,7 +134,10 @@ p {
 	background: #fff;
 }
 
-@media (orientation:portrait){
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) {
 	
 	.white {
 		height: 120px;
