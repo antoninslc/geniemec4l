@@ -320,8 +320,7 @@ a {
 }
 
 
-@media only screen 
-and (orientation : portrait), (max-width : 1200px)
+@media only screen and (max-width: 1366px)
 {
 
 	.header__navbar-toggle {
@@ -372,8 +371,7 @@ and (orientation : portrait), (max-width : 1200px)
 	}
 }
 
-@media only screen
-and (orientation: landscape)
+@media (orientation: landscape)
 and (max-width : 1200px) {
 
 	.navigation {margin-top: 80px;}
@@ -391,8 +389,7 @@ and (max-width : 1200px) {
 
 /*media for iPhone 6,7,8 in landscape */
 
-@media only screen 
-and (min-device-width : 375px) 
+@media (min-device-width : 375px) 
 and (max-device-width : 667px) 
 and (orientation : landscape) {
 
@@ -424,7 +421,7 @@ and (orientation : landscape) {
 
 /*media for iPhone X in portrait */
 
-@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) and (orientation : portrait) {
+@media (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) and (orientation : portrait) {
 	.navigation {
 		padding-top: 150px;
 	}
@@ -454,8 +451,7 @@ and (orientation : landscape) {
 
 /*media for iPhone X in landscape*/
 
-@media only screen 
-and (min-device-width : 375px) 
+@media (min-device-width : 375px) 
 and (max-device-width : 812px) 
 and (-webkit-device-pixel-ratio : 3)
 and (orientation : landscape) { 
