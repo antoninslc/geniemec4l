@@ -1,6 +1,6 @@
 jQuery(function($){
 
-    var launch = new Date(2021, 01, 18, 8, 00, 00)
+    var launch = new Date(2021, 03, 26, 8, 00, 00)
     var days = $('#nd');
     var ndays = $('#un');
     var hours = $('#nh');
